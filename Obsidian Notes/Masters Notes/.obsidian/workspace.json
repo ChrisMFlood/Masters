@@ -11,9 +11,11 @@
             "id": "bd86dfc8487a31a9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+                "file": "To do/06-02-24.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf",
+                "file": "To do/06-02-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf",
+                "file": "To do/06-02-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+                "file": "To do/06-02-24.md"
               }
             }
           }
@@ -144,18 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c638f43f4e68276c",
+  "active": "bd86dfc8487a31a9",
   "lastOpenFiles": [
-    "Papers/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
+    "To do/26-01-24.md",
+    "To do/25-01-24.md",
+    "To do/06-02-24.md",
     "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Papers/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
     "Autonomous_Vehicles_on_the_Edge_A_Survey_on_Autonomous_Vehicle_Racing.pdf",
     "Welcome.md",
     "Autonomous_Vehicles_on_the_Edge_A_Survey_on_Autonomous_Vehicle_Racing.md",
-    "To do/25-01-23.md",
     "Papers",
     "Untitled 1.md",
     "Untitled.md",
-    "To do/26-01-23.md",
     "create a link.md",
     "Untitled.canvas",
     "To do"
