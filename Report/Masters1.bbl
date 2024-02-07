@@ -9,4 +9,20 @@ Alexander Wischnewski, Tim Stahl, Johannes Betz, and Boris Lohmann.
 \newblock {\em IFAC-PapersOnLine}, 52(8):154--161, 2019.
 \newblock 10th IFAC Symposium on Intelligent Autonomous Vehicles IAV 2019.
 
+\bibitem{johan22}
+Johannes Betz, Hongrui Zheng, Alexander Liniger, Ugo Rosolia, Phillip Karle,
+  Madhur Behl, Venkat Krovi, and Rahul Mangharam.
+\newblock Autonomous vehicles on the edge: A survey on autonomous vehicle
+  racing.
+\newblock {\em IEEE Open Journal of Intelligent Transportation Systems},
+  3:458--488, 2022.
+
+\bibitem{deepLearning19}
+Felix Nobis, Maximilian Geisslinger, Markus Weber, Johannes Betz, and Markus
+  Lienkamp.
+\newblock A deep learning-based radar and camera sensor fusion architecture for
+  object detection.
+\newblock In {\em 2019 Sensor Data Fusion: Trends, Solutions, Applications
+  (SDF)}, pages 1--7, 2019.
+
 \end{thebibliography}

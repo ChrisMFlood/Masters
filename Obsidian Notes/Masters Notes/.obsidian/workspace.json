@@ -11,11 +11,9 @@
             "id": "bd86dfc8487a31a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Papers/Vehicle dynamics state estimation and localization for high performance race cars.md",
-                "mode": "source",
-                "source": false
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf"
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
               }
             }
           }
@@ -146,50 +144,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "1b3cfc84d8c83bfe",
-    "type": "floating",
-    "children": [
-      {
-        "id": "91a0888a7348abc7",
-        "type": "window",
-        "children": [
-          {
-            "id": "9d95f9bc91b7fec2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a4882018fe86fcea",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 642,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "a4882018fe86fcea",
+  "active": "bd86dfc8487a31a9",
   "lastOpenFiles": [
-    "Papers/Vehicle dynamics state estimation and localization for high performance race cars.md",
-    "Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
+    "Papers/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
     "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
+    "Autonomous_Vehicles_on_the_Edge_A_Survey_on_Autonomous_Vehicle_Racing.pdf",
+    "Papers/Vehicle dynamics state estimation and localization for high performance race cars.md",
     "[Vehicle.md",
     "Vehicle.md",
-    "Papers/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
-    "Autonomous_Vehicles_on_the_Edge_A_Survey_on_Autonomous_Vehicle_Racing.pdf",
     "To do/06-02-24.md",
     "To do/26-01-24.md",
     "To do/25-01-24.md",
