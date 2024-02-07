@@ -1,0 +1,321 @@
+
+% !TeX encoding = UTF-8
+% !TeX program  = xelatex
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[typeblock=wide]{stb-titlepage}        
+
+\usepackage{calc}
+
+%==== Font setup =====================================================
+\usepackage{iftex}
+\ifxetex
+    \usepackage[math-style=TeX,
+                bold-style=TeX,
+               ]{unicode-math}
+    \setmainfont{Cambria}%........................ Unicode fonts  (Win)                
+    \setsansfont[Scale=MatchLowercase]{Calibri}
+    \setmonofont[Scale=MatchLowercase]{Consolas}
+    \setmathfont{Cambria Math}
+    \defaultfontfeatures{Ligatures=TeX}
+    \let\bm\symbfit
+\else
+    \usepackage[utf8]{inputenc}%.................. Unicode file format
+    \usepackage{textcomp}%........................ Additional text symbols
+    \usepackage[T1]{fontenc}%..................... Type 1 outline fonts
+    \usepackage{fourier}%.......................... Roman+math - Utopia
+    \usepackage{textcomp}%......................... Additional text symbols
+    \usepackage[scaled=0.85]{berasans}%............ Sans serif - Bera sans
+    \usepackage[scaled=0.85]{beramono}%............ Typewriter - Bera mono
+    \usepackage{bm}%.............................. Bold math fonts
+\fi
+\normalfont
+
+%==== Tables + Graphics + Color =====================================
+\usepackage{array}%............................... Extended table defs 
+    \setlength{\extrarowheight}{2pt}
+\usepackage{booktabs}
+   \heavyrulewidth=\lightrulewidth
+   \cmidrulewidth=\lightrulewidth
+   \abovetopsep=\smallskipamount
+   \belowbottomsep=\smallskipamount
+   \cmidrulekern=\tabcolsep
+\usepackage{graphicx}%............................ Included graphics
+\usepackage[font=small]{caption}%................. Customize captions  
+\usepackage[table]{xcolor}%....................... Color setup + colortbl 
+    \definecolor{stbMaroon}{RGB}{97,  34, 59}
+    \definecolor{stbGold}  {RGB}{183,153, 98}
+    \definecolor{stbGreen} {RGB}{130,204,174}
+    \definecolor{stbOrange}{RGB}{220, 68,  5}
+    \definecolor{stbWine}  {RGB}{166, 10, 61}
+    \definecolor{stbSoil}  {RGB}{100, 51, 53}
+    
+%=====================================================================
+\usepackage[pagestyles]{titlesec}%........... Sectioning and headings
+
+\newcommand*\secfamily{\sffamily}
+\newcommand*\secfont{\secfamily\bfseries}
+\newcommand*\parfont{\normalfont\bfseries\itshape}
+
+\titlelabel{\thetitle.\quad}
+
+\titleformat*{\section}      {\normalfont\Large\secfont}
+\titleformat*{\subsection}   {\normalfont\large\secfont}
+\titleformat*{\subsubsection}{\normalfont\normalsize\secfont}
+\titleformat*{\paragraph}    {\normalfont\normalsize\parfont}
+\titleformat*{\subparagraph} {\normalfont\normalsize\parfont\itshape}
+
+\titlespacing*{\section}      {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}   {0pt}{2.5ex  plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsubsection}{0pt}{2.5ex  plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\paragraph}    {0pt}{1.5ex  plus 1ex minus .2ex}{1em}
+\titlespacing*{\subparagraph} {\parindent}{1.5ex  plus 1ex minus .2ex}{1em}
+
+
+%=====================================================================
+\usepackage[]{url}
+
+
+\usepackage{dirtree}
+    \newlength\Loffset \setlength\Loffset{3.0em}
+    \newlength\Lwidth  \setlength\Lwidth{1em}
+    \newlength\Lsep    \setlength\Lsep{0.2em}
+    \newlength\Lskip   \setlength\Lskip{\Loffset+\Lwidth}
+    \DTsetlength{\Loffset}{\Lwidth}{\Lsep}{0.4pt}{1.6pt}%
+    \newsavebox{\DirBox}
+
+\usepackage[shortlabels]{enumitem}
+
+
+%==== User Defs ======================================================
+\makeatletter
+
+\newsavebox{\tboxa}
+\newlength{\tdima}
+
+% Ensure that the minus sign is the "-" character in
+% listings environments for cut and paste operations from pdf docs
+\newcommand*\verbfont{%
+    \normalfont\ttfamily\hyphenchar\font\m@ne\@noligs}
+\def\UrlFont{\verbfont}
+
+\newenvironment{fminipage}[1][\linewidth]
+    {\setlength{\tdima}{#1-2\fboxsep-2\fboxrule}%
+     \begin{lrbox}{\tboxa}\begin{minipage}{\tdima}}%
+    {\end{minipage}\end{lrbox}\noindent\fbox{\usebox{\tboxa}}}
+
+\newenvironment{cminipage}[1][\linewidth]
+    {\setlength{\tdima}{#1-2\fboxsep-2\fboxrule}%
+     \begin{lrbox}{\tboxa}\begin{minipage}{\tdima}}%
+    {\end{minipage}\end{lrbox}\noindent\colorbox{stbMaroon!10!white}{\usebox{\tboxa}}}
+
+\newenvironment{Cpara}[1][\normalsize]
+    {\list{}{\setlength{\leftmargin}{0pt}%
+             \setlength{\labelwidth}{0pt}%
+             \setlength{\labelsep}{0pt}}%
+     \item\relax\cminipage\small#1\ignorespaces}%
+    {\endcminipage\endlist}
+
+\newlength\mylena
+\newlength\mylenb
+\newcommand\mystrut[1][4pt]{%
+    \setlength\mylena{\totalheightof{\@arstrutbox}+#1*2}%
+    \setlength\mylenb{\depthof{\@arstrutbox}+#1}%
+    \rule[-\mylenb]{0pt}{\mylena}}
+
+\newlength{\mytab}
+\setlength{\mytab}{2\parindent}
+\newcommand{\tab}{\hspace*{\mytab}}
+
+\newcommand\ctab{\makebox[\mytab][l]{\quad\texttt{\textgreater}}}
+
+\newenvironment{CMDline}[1][\normalsize]
+    {\list{}{\setlength{\leftmargin}{0pt}%
+             \setlength{\labelwidth}{0pt}%
+             \setlength{\labelsep}{0pt}}%
+     \item\relax%
+          \begin{tabular}{@{}p{\linewidth}@{}}
+               \hline\rowcolor{stbMaroon}[0pt][0pt]
+               \mystrut\color{white}\small\ctab\ttfamily#1\ignorespaces}%
+    {\\\hline\end{tabular}\endlist}
+
+\newcommand*\lcbrack{\symbol{`\{}}
+\newcommand*\rcbrack{\symbol{`\}}}
+\newcommand*\bslash{\symbol{`\\}}
+\newcommand*\uscore{\symbol{`\_}}
+
+\newcommand*\file[1]{\,\texttt{#1}\,}%{\texttt{Êº#1Êº}}
+\newcommand*\prgm[1]{\textsf{#1}}
+
+\newcommand\TL{\prgm{\TeX{}Live}}
+\newcommand\MT{\prgm{Mik\TeX}}
+
+\newcommand\pkg[1]{\textsf{#1}}
+
+\makeatother
+
+%==== Title Page =====================================================
+\title{Stellenbosch-2 bundle}                   
+\author{Danie Els}                
+\address{Department of Mechanical and Mechatronic Engineering\\
+        Stellenbosch University \\
+        Private Bag X1, Matieland 7602, South Africa}
+\date{2023/08/10}                             
+%\Copyright{2023}{Stellenbosch University.\\ All rights reserved.}
+
+\begin{document}
+\maketitle 
+
+\noindent\begin{fminipage}
+\begin{Cpara}
+The Stellenbosch-2 bundle is provided to typeset reports, theses and
+dissertations and presentations that conform to the requirements of the Stellenbosch
+University.\medskip
+
+It is distributed with standard \TL\ and \MT\
+systems and there is no need to install it separately if you have a full
+installation. All the package updates and error fixes can then be obtained
+with the normal system updates.\medskip
+
+\emph{The original Stellenbosch/usthesis packages will remain on CTAN for typesetting of legacy documents.}
+\end{Cpara}
+\end{fminipage}\smallskip
+
+
+\section*{Packages and files}
+
+\begin{description}[style=nextline]
+    \item[\pkg{stb-thesis}:] A class that is primarily concerned with the
+        formatting of Stellenbosch University thesis and dissertation front matter such as the title page, abstract, etc. It also works together with the babel package
+        to provide language language options to typeset documents in
+        Afrikaans or in English. The class file \file{stb-thesis.cls} is based on the standard \LaTeX\ book class.
+
+    \item[\pkg{stb-bib}:]  A  \prgm{Bib\TeX} package for the formatting of
+        bibliographic references of theses. This package is tailored
+        towards citations and bibliographical formatting for the natural
+        sciences and engineering.
+
+    \item[\pkg{stb-titlepage}:]  A package that redefine the standard title page of the
+        \LaTeX\ classes to add a logo at the top and an address line below
+        the author. It is intended for use when writing general notes and
+        articles.
+
+    \item[\pkg{stb-beamer}:]  Style files to produce presentations with the Stellenbosch University logos and colours.
+   
+    \item[\pkg{stb-nomencl}:]  Simple utility to set a nomenclature or list of
+        symbols.
+
+    \item[\texttt{templates}:] Templates are provide for Stellenbosch theses, dissertations and presentations as well as for a final year M\&M project. 
+\end{description}
+
+
+\noindent You can test if the Stellenbosch bundle is installed by searching
+for one of the style files with the \TeX\ command line utility:
+\begin{CMDline}
+     kpsewhich stb-thesis.cls
+\end{CMDline}
+If is returns the path to \file{stb-thesis.cls} then the bundle is installed
+and \TeX\ can find it.
+
+
+\section*{Documentation}
+
+The documentation of the Stellenbosch thesis bundle can be found at
+\begin{Cpara}
+    \tab\url{https://www.ctan.org/pkg/stellenbosch-2}
+\end{Cpara}
+\medskip
+
+\noindent If you have full \LaTeX\ installation then the documentation can be
+obtained with the command line utility
+\begin{CMDline}
+    texdoc -l stellenbosch-2
+\end{CMDline}
+
+
+\section*{Local installation}
+
+If for one or other reason you do not have a full \LaTeX\ installation and
+needs to install the Stellenbosch thesis bundle on you machine, you can
+download the full package from CTAN:
+\begin{Cpara}
+    \tab\url{https://ctan.org/pkg/stellenbosch-2}
+\end{Cpara}
+Note that all the files needed to be installed in the correct directory
+structure so that the \TeX\ search engines can find them. The files can be
+installed in the \texttt{TEXMFHOME} directory for the current user or
+\texttt{TEXMFLOCAL} directory for all the users. These directories are
+created when your \TeX\ system is installed and can be found by running the
+command line utility:
+\begin{CMDline}
+    kpsewhich -var-value TEXMFHOME
+\end{CMDline}
+\begin{CMDline}
+    kpsewhich -var-value TEXMFLOCAL
+\end{CMDline}
+
+\noindent Unzip \file{stellenbosch-2.tds.zip} to the selected directory and
+make sure that the unzipped directory structure stays intact. The files must
+be in the structure as indicated below with \texttt{$\langle$TEXMF$\rangle$}, the \texttt{TEXMFHOME} or \texttt{TEXMFLOCAL} directory:
+
+\begin{Cpara}
+        \begin{lrbox}{\DirBox}%
+        \begin{minipage}{\linewidth}%
+        \dirtree{%
+        .1 \quad$\langle$TEXMF$\rangle$.
+        .2 \bslash bibtex\bslash bst\bslash stellenbosch-2.
+        .4 stb-bib-eng-a.bst.
+        .4 stb-bib-eng-n.bst.
+        .2 \bslash doc\bslash latex\bslash stellenbosch-2.
+        .4 stellenbosch-2.pdf.
+        .4 stb-beamer.pdf.
+        .4 stb-bib.pdf.
+        .4 stb-nomencl.pdf.
+        .4 stb-thesis.pdf.
+        .4 stb-titlepage.pdf.
+        .4 \bslash templates.
+        .5 template-stb-article.zip.
+        .5 template-stb-beamer.zip.
+        .5 template-stb-masters.zip.
+        .5 template-stb-report-eng.zip.
+        .2 \bslash tex\bslash latex\bslash stellenbosch-2.
+        .4 stb-beamer-a.sty.
+        .4 stb-beamer-b.sty.
+        .4 stb-thesis.cls.
+        .4 stb-thesis.afr.
+        .4 stb-thesis.eng.
+        .4 stb-bib.sty.
+        .4 stb-bib.afr.
+        .4 stb-bib.eng.
+        .4 stb-titlepage.sty.
+        .4 stb-nomencl.sty.
+        .4 \bslash figs.
+        .5 All the graphics....
+        }
+        \end{minipage}%
+        \end{lrbox}%
+        \tab\hspace*{-\Lskip}\usebox{\DirBox}
+\end{Cpara}
+\bigskip
+
+\noindent The final step is to update the \TeX\ file name database so that
+all the files can be found by the search engines. Run the following command
+line utility (it may take a while):
+
+\begin{CMDline}
+    mktexlsr
+\end{CMDline}
+or
+\begin{CMDline}
+    texhash
+\end{CMDline}
+
+
+\noindent Finally to see if your the bundle is installed correctly, compile
+one of the provided templates.
+
+
+
+
+
+\end{document}

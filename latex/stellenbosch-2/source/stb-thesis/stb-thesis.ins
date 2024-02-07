@@ -1,0 +1,78 @@
+%% stb-thesis.ins
+%%
+%% This file will generate fast loadable files and documentation
+%% driver files from the doc files in this package when run through
+%% LaTeX or TeX.
+%%
+%% Copyright (C) 2023 Stellenbosch University
+%% All rights reserved.
+%%
+%% -------------------------------------------------------------------
+%% Stellenbosch University Thesis Class
+%% -------------------------------------------------------------------
+%%
+%% Author:     Danie Els
+%% Maintained: Danie Els (dnjels@sun.ac.za)
+%%
+%% This work may be distributed and modified, and must be credited
+%% under the conditions of the latest version of the Creative Commons 
+%% License (CC BY 4.0). The latest version of this license is in
+%% 
+%%    https://creativecommons.org/licenses/by/4.0/
+%% 
+%% -------------------------------------------------------------------
+
+\def\batchfile{stb-thesis.ins}
+\def\filedate{2023/08/10}
+\input docstrip.tex
+\keepsilent
+
+\declarepreamble\Class 
+Copyright (C) 2023 Stellenbosch University
+All rights reserved.
+
+----------------------------------------------------------------------
+Stellenbosch University Thesis Class
+----------------------------------------------------------------------
+
+Author:     Danie Els
+Maintained: Danie Els (dnjels@sun.ac.za)
+
+This work may be distributed and modified, and must be credited
+under the conditions of the latest version of the Creative Commons 
+License (CC BY 4.0). The latest version of this license is in:
+
+   https://creativecommons.org/licenses/by/4.0/
+
+This work consists of the files
+    stb-thesis.dtx
+    stb-thesis.ins
+    stb-thesis-afr.tex
+    stb-thesis-eng.tex
+and the derived files: 
+    stb-thesis.cls
+-------------------------------------------------------------------
+
+\endpreamble
+
+\generate{%
+    \askforoverwritefalse
+    \usepreamble\Class
+    \file{stb-thesis.cls}{\from{stb-thesis.dtx}{cls}}}
+
+\obeyspaces
+\Msg{************************************************************}
+\Msg{*                                                          *}
+\Msg{* To finish the installation you have to move the          *}
+\Msg{* following files into a directory searched by TeX:        *}
+\Msg{*                                                          *}
+\Msg{*    stb-thesis.cls                                        *}
+\Msg{*    stb-thesis-afr.tex                                    *}
+\Msg{*    stb-thesis-eng.tex                                    *}
+\Msg{*                                                          *}
+\Msg{* To produce the documentation run the file stb-thesis.dtx *}
+\Msg{* through LaTeX.                                           *}
+\Msg{*                                                          *}
+\Msg{* Happy TeXing!                                            *}
+\Msg{************************************************************}
+\endbatchfile
