@@ -25,4 +25,42 @@ Felix Nobis, Maximilian Geisslinger, Markus Weber, Johannes Betz, and Markus
 \newblock In {\em 2019 Sensor Data Fusion: Trends, Solutions, Applications
   (SDF)}, pages 1--7, 2019.
 
+\bibitem{softwareArch19}
+Johannes Betz, Alexander Wischnewski, Alexander Heilmeier, Felix Nobis, Tim
+  Stahl, Leonhard Hermansdorfer, and Markus Lienkamp.
+\newblock A software architecture for an autonomous racecar.
+\newblock In {\em 2019 IEEE 89th Vehicular Technology Conference
+  (VTC2019-Spring)}, pages 1--6, 2019.
+
+\bibitem{indyChallange22}
+Alexander Wischnewski, Maximilian Geisslinger, Johannes Betz, Tobias Betz,
+  Felix Fent, Alexander Heilmeier, Leonhard Hermansdorfer, Thomas Herrmann,
+  Sebastian Huch, Phillip Karle, Felix Nobis, Levent {\"O}gretmen, Matthias
+  Rowold, Florian Sauerbeck, Tim Stahl, Rainer Trauth, Markus Lienkamp, and
+  Boris Lohmann.
+\newblock Indy autonomous challenge - autonomous race cars at the handling
+  limits.
+\newblock In Peter Pfeffer, editor, {\em 12th International Munich Chassis
+  Symposium 2021}, pages 163--182, Berlin, Heidelberg, 2022. Springer Berlin
+  Heidelberg.
+
+\bibitem{TUM23}
+Johannes Betz, Tobias Betz, Felix Fent, Maximilian Geisslinger, Alexander
+  Heilmeier, Leonhard Hermansdorfer, Thomas Herrmann, Sebastian Huch, Phillip
+  Karle, Markus Lienkamp, Boris Lohmann, Felix Nobis, Levent Ögretmen,
+  Matthias Rowold, Florian Sauerbeck, Tim Stahl, Rainer Trauth, Frederik
+  Werner, and Alexander Wischnewski.
+\newblock Tum autonomous motorsport: An autonomous racing software for the indy
+  autonomous challenge.
+\newblock {\em Journal of Field Robotics}, 40(4):783--809, 2023.
+
+\bibitem{AMZ20}
+Juraj Kabzan, Miguel~I. Valls, Victor J.~F. Reijgwart, Hubertus F.~C. Hendrikx,
+  Claas Ehmke, Manish Prajapat, Andreas Bühler, Nikhil Gosala, Mehak Gupta,
+  Ramya Sivanesan, Ankit Dhall, Eugenio Chisari, Napat Karnchanachari, Sonja
+  Brits, Manuel Dangel, Inkyu Sa, Renaud Dubé, Abel Gawel, Mark Pfeiffer,
+  Alexander Liniger, John Lygeros, and Roland Siegwart.
+\newblock Amz driverless: The full autonomous racing system.
+\newblock {\em Journal of Field Robotics}, 37(7):1267--1294, 2020.
+
 \end{thebibliography}

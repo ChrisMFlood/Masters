@@ -36,3 +36,77 @@ abstract = {Autonomous driving requires accurate information about the vehicle p
   keywords={Radar cross-sections;Cameras;Radar imaging;Radar detection;Object detection;Neural networks;Sensor Fusion;Object Detection;Deep Learning;Radar Processing;Autonomous Driving;Neural Networks;Neural Fusion;Raw Data Fusion;Low Level Fusion;Multi-modal Sensor Fusion},
   doi={10.1109/SDF.2019.8916629}}
 
+@INPROCEEDINGS{softwareArch19,
+  author={Betz, Johannes and Wischnewski, Alexander and Heilmeier, Alexander and Nobis, Felix and Stahl, Tim and Hermansdorfer, Leonhard and Lienkamp, Markus},
+  booktitle={2019 IEEE 89th Vehicular Technology Conference (VTC2019-Spring)}, 
+  title={A Software Architecture for an Autonomous Racecar}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Software;Autonomous vehicles;Hardware;Software architecture;Automobiles;Planning;Software algorithms},
+  doi={10.1109/VTCSpring.2019.8746367}}
+
+  @InProceedings{indyChallange22,
+author="Wischnewski, Alexander
+and Geisslinger, Maximilian
+and Betz, Johannes
+and Betz, Tobias
+and Fent, Felix
+and Heilmeier, Alexander
+and Hermansdorfer, Leonhard
+and Herrmann, Thomas
+and Huch, Sebastian
+and Karle, Phillip
+and Nobis, Felix
+and {\"O}gretmen, Levent
+and Rowold, Matthias
+and Sauerbeck, Florian
+and Stahl, Tim
+and Trauth, Rainer
+and Lienkamp, Markus
+and Lohmann, Boris",
+editor="Pfeffer, Peter",
+title="Indy Autonomous Challenge - Autonomous Race Cars at the Handling Limits",
+booktitle="12th International Munich Chassis Symposium 2021",
+year="2022",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="163--182",
+abstract="Motorsport has always been an enabler for technological advancement, and the same applies to the autonomous driving industry. The team TUM Autonomous Motorsports will participate in the Indy Autonomous Challenge in October 2021 to benchmark its self-driving software-stack by racing one out of ten autonomous Dallara AV-21 racecars at the Indianapolis Motor Speedway. The first part of this paper explains the reasons for entering an autonomous vehicle race from an academic perspective: It allows focusing on several edge cases encountered by autonomous vehicles, such as challenging evasion maneuvers and unstructured scenarios. At the same time, it is inherently safe due to the motorsport related track safety precautions. It is therefore an ideal testing ground for the development of autonomous driving algorithms capable of mastering the most challenging and rare situations. In addition, we provide insight into our software development workflow and present our Hardware-in-the-Loop simulation setup. It is capable of running simulations of up to eight autonomous vehicles in real time. The second part of the paper gives a high-level overview of the software architecture and covers our development priorities in building a high-performance autonomous racing software: maximum sensor detection range, reliable handling of multi-vehicle situations, as well as reliable motion control under uncertainty.",
+isbn="978-3-662-64550-5"
+}
+
+@article{TUM23,
+author = {Betz, Johannes and Betz, Tobias and Fent, Felix and Geisslinger, Maximilian and Heilmeier, Alexander and Hermansdorfer, Leonhard and Herrmann, Thomas and Huch, Sebastian and Karle, Phillip and Lienkamp, Markus and Lohmann, Boris and Nobis, Felix and Ögretmen, Levent and Rowold, Matthias and Sauerbeck, Florian and Stahl, Tim and Trauth, Rainer and Werner, Frederik and Wischnewski, Alexander},
+title = {TUM autonomous motorsport: An autonomous racing software for the Indy Autonomous Challenge},
+journal = {Journal of Field Robotics},
+volume = {40},
+number = {4},
+pages = {783-809},
+keywords = {artificial intelligence, autonomous robot, dynamic obstacle avoidance, unmanned ground vehicle, vehicle robot},
+doi = {https://doi.org/10.1002/rob.22153},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.22153},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.22153},
+abstract = {Abstract For decades, motorsport has been an incubator for innovations in the automotive sector and brought forth systems, like, disk brakes or rearview mirrors. Autonomous racing series such as Roborace, F1Tenth, or the Indy Autonomous Challenge (IAC) are envisioned as playing a similar role within the autonomous vehicle sector, serving as a proving ground for new technology at the limits of the autonomous systems capabilities. This paper outlines the software stack and approach of the TUM Autonomous Motorsport team for their participation in the IAC, which holds two competitions: A single-vehicle competition on the Indianapolis Motor Speedway and a passing competition at the Las Vegas Motor Speedway. Nine university teams used an identical vehicle platform: A modified Indy Lights chassis equipped with sensors, a computing platform, and actuators. All the teams developed different algorithms for object detection, localization, planning, prediction, and control of the race cars. The team from Technical University of Munich (TUM) placed first in Indianapolis and secured second place in Las Vegas. During the final of the passing competition, the TUM team reached speeds and accelerations close to the limit of the vehicle, peaking at around 270 km h − 1 \$270\,\text{km\hspace{0.05em}h}{}^{-1}\$ and 28 m s − 2 \$28\,ms{}^{-2}\$. This paper will present details of the vehicle hardware platform, the developed algorithms, and the workflow to test and enhance the software applied during the 2-year project. We derive deep insights into the autonomous vehicle's behavior at high speed and high acceleration by providing a detailed competition analysis. On the basis of this, we deduce a list of lessons learned and provide insights on promising areas of future work based on the real-world evaluation of the displayed concepts.},
+year = {2023}
+}
+
+@article{AMZ20,
+author = {Kabzan, Juraj and Valls, Miguel I. and Reijgwart, Victor J. F. and Hendrikx, Hubertus F. C. and Ehmke, Claas and Prajapat, Manish and Bühler, Andreas and Gosala, Nikhil and Gupta, Mehak and Sivanesan, Ramya and Dhall, Ankit and Chisari, Eugenio and Karnchanachari, Napat and Brits, Sonja and Dangel, Manuel and Sa, Inkyu and Dubé, Renaud and Gawel, Abel and Pfeiffer, Mark and Liniger, Alexander and Lygeros, John and Siegwart, Roland},
+title = {AMZ Driverless: The full autonomous racing system},
+journal = {Journal of Field Robotics},
+volume = {37},
+number = {7},
+pages = {1267-1294},
+doi = {https://doi.org/10.1002/rob.21977},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21977},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21977},
+abstract = {Abstract This paper presents the algorithms and system architecture of an autonomous racecar. The introduced vehicle is powered by a software stack designed for robustness, reliability, and extensibility. To autonomously race around a previously unknown track, the proposed solution combines state of the art techniques from different fields of robotics. Specifically, perception, estimation, and control are incorporated into one high-performance autonomous racecar. This complex robotic system, developed by AMZ Driverless and ETH Zürich, finished first overall at each competition we attended: Formula Student Germany 2017, Formula Student Italy 2018 and Formula Student Germany 2018. We discuss the findings and learnings from these competitions and present an experimental evaluation of each module of our solution.},
+year = {2020}
+}
+
+
+
+
+
