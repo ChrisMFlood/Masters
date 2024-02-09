@@ -1,0 +1,21 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#00ff11",
+      "directory": "Calendar"
+    },
+    {
+      "type": "dailynote",
+      "color": "#ff0000",
+      "heading": "Day planner #todo"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}
