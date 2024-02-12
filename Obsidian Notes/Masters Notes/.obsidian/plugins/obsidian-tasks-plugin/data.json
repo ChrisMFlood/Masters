@@ -52,7 +52,7 @@
   },
   "generalSettings": {},
   "headingOpened": {
-    "Core Statuses": false,
+    "Core Statuses": true,
     "Custom Statuses": true
   },
   "debugSettings": {
