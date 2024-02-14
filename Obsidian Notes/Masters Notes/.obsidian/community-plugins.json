@@ -9,5 +9,7 @@
   "dataview",
   "obsidian-tasks-plugin",
   "obsidian-checklist-plugin",
-  "obsidian-annotator"
+  "obsidian-annotator",
+  "obsidian-topic-linking",
+  "periodic-notes"
 ]

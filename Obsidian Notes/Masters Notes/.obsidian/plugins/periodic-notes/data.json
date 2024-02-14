@@ -1,0 +1,32 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "YY-MM-D",
+    "folder": "To do",
+    "template": "zzTemplates/Daily Template",
+    "enabled": false
+  },
+  "weekly": {
+    "format": "",
+    "template": "zzTemplates/Meeting Minutes Template.md",
+    "folder": "Meeting Minutes",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}
