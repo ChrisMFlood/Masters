@@ -1,5 +1,6 @@
 {
   "folder": "To do",
   "template": "zzTemplates/Daily Template",
-  "format": "YY-MM-D"
+  "format": "YY-MM-D",
+  "autorun": true
 }

@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [
+        "zzTemplates/Daily Template.md",
+        "zzTemplates/Meeting Minutes Template.md"
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Calendar",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "daysOfWeek": {
+                "hide": true
+              },
+              "endTime": {
+                "hide": true
+              },
+              "endRecur": {
+                "hide": true
+              },
+              "startTime": {
+                "hide": true
+              },
+              "startRecur": {
+                "hide": true
+              },
+              "published": {
+                "hide": true
+              },
+              "image": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b628f126-7eb0-49e4-bdbb-a7333c483fd6",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "66e28433-46e6-4433-b984-bb1afa49724d",
+      "name": "Masters"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
