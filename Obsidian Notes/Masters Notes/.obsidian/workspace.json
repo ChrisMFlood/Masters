@@ -4,23 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "df15e5d53d0be45f",
+        "id": "628191e5700edc8b",
         "type": "tabs",
         "children": [
           {
-            "id": "2a42592991b92c0f",
+            "id": "073e0888d76043e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papers/Index of Papers.md",
+                "file": "Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9fc374494c63a467",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "12656b5c47c5c957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/Index of Papers.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/Index of Papers.md"
+                "file": "Tasks.md"
               }
             }
           },
@@ -148,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,44 +191,44 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2a42592991b92c0f",
+  "active": "12656b5c47c5c957",
   "lastOpenFiles": [
+    "To do/24-01-25.md",
+    "To do/24-01-26.md",
+    "To do/24-02-6.md",
+    "To do/24-02-9.md",
+    "To do/24-02-12.md",
+    "To do/24-02-13.md",
+    "To do/24-02-14.md",
+    "To do/24-02-15.md",
+    "To do/24-02-16.md",
+    "To do/24-02-17.md",
+    "To do/24-02-19.md",
+    "To do/24-02-22.md",
     "Tasks.md",
-    "Tasks 1.md",
-    "Papers/Index of Papers.md",
-    "Papers/Untitled.md",
     "To do/24-02-20.md",
     "To do/24-02-21.md",
     "To do/24-02-23.md",
-    "Downloads.md",
+    "Setup Computer/Useful Latex Stuff.md",
+    "Setup Computer/Downloads.md",
+    "Setup Computer/Unconfirmed 772989.crdownload",
+    "Setup Computer",
+    "Calendar/(Every R) Masters Meeting.md",
+    "Meeting Minutes/2024-W07.md",
+    "Meeting Minutes/2024-W08.md",
+    "Papers/Index of Papers.md",
+    "Tasks 1.md",
+    "Papers/Untitled.md",
     "_Index_of_Masters Notes.md",
     "Calendar/_Index_of_Calendar.md",
-    "Meeting Minutes/_Index_of_Meeting Minutes.md",
-    "zzTemplates/_Index_of_zzTemplates.md",
-    "zzTemplates/Index Template.md",
-    "zzTemplates/Daily Template.md",
-    "zzTemplates/Meeting Minutes Template.md",
     "zzTemplates",
-    "To do/_Index_of_To do.md",
-    "Research Notes/_Index_of_Research Notes.md",
     "Papers/A_Software_Architecture_for_an_Autonomous_Racecar.pdf",
     "Papers/Accurate Mapping and Planning for Autonomous Racing.pdf",
-    "Calendar/(Every R) Masters Meeting.md",
-    "Calendar/(Every F) Demi.md",
-    "Calendar/Untitled.md",
-    "Untitled.md",
-    "zzTemplates/2024-02-21 Calendar Template.md",
-    "To do/24-02-12.md",
-    "To do/24-02-22.md",
-    "Calendar/2024-02-22 jghfgfj.md",
-    "To do/24-02-19.md",
     "Calendar Tasks",
     "tasksCalendar/view.js",
     "tasksCalendar/view.css",
     "tasksCalendar",
     "Projects - Demo Project",
-    "Spaces/Home",
-    "Spaces",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
