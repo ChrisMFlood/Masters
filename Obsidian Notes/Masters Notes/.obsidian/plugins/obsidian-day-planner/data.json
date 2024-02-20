@@ -17,7 +17,7 @@
   "hourFormat": "H",
   "dataviewSource": "",
   "showDataviewMigrationWarning": false,
-  "extendDurationUntilNext": false,
+  "extendDurationUntilNext": true,
   "defaultDurationMinutes": 30,
   "showTimestampInTaskBlock": false,
   "unscheduledTasksHeight": 100,

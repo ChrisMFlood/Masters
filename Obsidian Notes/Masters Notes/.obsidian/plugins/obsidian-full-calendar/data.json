@@ -7,8 +7,13 @@
     },
     {
       "type": "dailynote",
-      "color": "#ff0000",
+      "color": "#11ff00",
       "heading": "Day planner #todo"
+    },
+    {
+      "type": "local",
+      "color": "hsl(258, 88%, 66%)",
+      "directory": "Calendar Tasks"
     }
   ],
   "defaultCalendar": 0,
