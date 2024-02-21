@@ -5,12 +5,12 @@
   "obsidian-latex-suite",
   "obsidian-extract-pdf-highlights",
   "drawio-obsidian",
-  "obsidian-day-planner",
   "dataview",
   "obsidian-tasks-plugin",
   "obsidian-checklist-plugin",
   "obsidian-annotator",
   "obsidian-topic-linking",
   "periodic-notes",
-  "obsidian-projects"
+  "obsidian-projects",
+  "obsidian-zotero-desktop-connector"
 ]
