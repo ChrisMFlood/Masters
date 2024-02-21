@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "f5ada2ddf8c29813",
+    "type": "split",
+    "children": [
+      {
+        "id": "711d9d19f83ac0f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "310b232862fa26dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/To do/24-02-14.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2da65581954269d",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5c9c2643409000d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d12467a7e16f8774",
+    "type": "split",
+    "children": [
+      {
+        "id": "0be27c7faaea6fa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0751efaa578000a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab4b6bc9fe012979",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1390df37bd685b8c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0da5b1d6d9550ba2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ee6104c63cc838f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb079f285390f732",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Masters Notes/Tasks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73ba8352960b5ed6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Masters Notes/Tasks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a00392a239612080",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dbdd28bc1fbd4489",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Masters Notes/Tasks.md"
+              }
+            }
+          },
+          {
+            "id": "63bdffa4cfd43d41",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "42be471deb6c39ff",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "00eb0a94885aad22",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "periodic-notes:Open this week": false
+    }
+  },
+  "active": "5c9c2643409000d7",
+  "lastOpenFiles": [
+    "Masters Notes/Meeting Minutes/2024-W07.md",
+    "Satellite Meeting.md",
+    "Masters Notes/To do/24-02-14.md",
+    "Masters Notes/To do/24-02-13.md",
+    "2024-02-14.md",
+    "Masters Notes/To do/24-02-12.md",
+    "Masters Notes/Tasks.md"
+  ]
+}
