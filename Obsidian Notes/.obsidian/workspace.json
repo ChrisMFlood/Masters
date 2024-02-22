@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/Tasks.md",
+                "file": "Masters Notes/To do/24-02-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/Tasks.md",
+                "file": "Masters Notes/To do/24-02-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/Tasks.md",
+                "file": "Masters Notes/To do/24-02-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/Tasks.md"
+                "file": "Masters Notes/To do/24-02-21.md"
               }
             }
           },
@@ -196,6 +196,7 @@
   },
   "active": "5c9c2643409000d7",
   "lastOpenFiles": [
+    "Masters Notes/Tasks.md",
     "Masters Notes/zzTemplates/Meeting Minutes Template.md",
     "Masters Notes/To do/24-02-21.md",
     "Masters Notes/To do/24-02-14.md",
@@ -212,7 +213,6 @@
     "Masters Notes/To do/24-02-17.md",
     "Masters Notes/To do/24-02-16.md",
     "Masters Notes/To do/24-02-15.md",
-    "Masters Notes/Tasks.md",
     "Masters Notes/Meeting Minutes/2024-W07.md",
     "Satellite Meeting.md",
     "Masters Notes/To do/24-02-13.md",
