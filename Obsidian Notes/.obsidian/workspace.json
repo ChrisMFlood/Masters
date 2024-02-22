@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/To do/24-02-14.md",
+                "file": "Masters Notes/To do/24-02-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/To do/24-02-14.md",
+                "file": "Masters Notes/To do/24-02-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/To do/24-02-14.md",
+                "file": "Masters Notes/To do/24-02-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/To do/24-02-14.md"
+                "file": "Masters Notes/To do/24-02-21.md"
               }
             }
           },
@@ -196,6 +196,9 @@
   },
   "active": "5c9c2643409000d7",
   "lastOpenFiles": [
+    "Masters Notes/To do/24-02-14.md",
+    "Masters Notes/TUM.md",
+    "Masters Notes/Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
     "Masters Notes/Setup Computer/Useful Latex Stuff.md",
     "Masters Notes/Setup Computer/Downloads.md",
     "Masters Notes/Setup Computer",
@@ -211,7 +214,6 @@
     "Masters Notes/Tasks.md",
     "Masters Notes/Meeting Minutes/2024-W07.md",
     "Satellite Meeting.md",
-    "Masters Notes/To do/24-02-14.md",
     "Masters Notes/To do/24-02-13.md",
     "2024-02-14.md",
     "Masters Notes/To do/24-02-12.md"
