@@ -2,18 +2,8 @@
   "calendarSources": [
     {
       "type": "local",
-      "color": "#00ff11",
-      "directory": "Calendar"
-    },
-    {
-      "type": "dailynote",
-      "color": "#11ff00",
-      "heading": "Day planner #todo"
-    },
-    {
-      "type": "local",
       "color": "hsl(258, 88%, 66%)",
-      "directory": "Calendar Tasks"
+      "directory": "Calendar"
     }
   ],
   "defaultCalendar": 0,
@@ -22,5 +12,5 @@
     "desktop": "timeGridWeek",
     "mobile": "timeGrid3Days"
   },
-  "timeFormat24h": true
+  "timeFormat24h": false
 }

@@ -1,7 +1,6 @@
 [
   "quick-latex",
   "copy-as-latex",
-  "obsidian-full-calendar",
   "obsidian-latex-suite",
   "obsidian-extract-pdf-highlights",
   "drawio-obsidian",
@@ -12,5 +11,6 @@
   "obsidian-topic-linking",
   "periodic-notes",
   "obsidian-projects",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "obsidian-full-calendar"
 ]
