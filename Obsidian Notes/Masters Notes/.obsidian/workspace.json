@@ -27,9 +27,22 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "af48e591de31aad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,10 +236,11 @@
       }
     ]
   },
-  "active": "3ea5ac4711600b15",
+  "active": "af48e591de31aad4",
   "lastOpenFiles": [
-    "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
+    "To do/24-02-22.md",
     "Tasks.md",
+    "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
     "Calendar/(Every R) Masters Meeting.md",
     "Calendar/(Every F) Demi.md",
     "Meeting Minutes/2024-W08.md",
@@ -235,7 +249,6 @@
     "Setup Computer/Downloads.md",
     "Setup Computer/Useful Latex Stuff.md",
     "Introduction to F1Tenth Racing Research 2024.pdf",
-    "To do/24-02-22.md",
     "To do/24-02-21.md",
     "To do/24-02-14.md",
     "To do/24-02-15.md",
