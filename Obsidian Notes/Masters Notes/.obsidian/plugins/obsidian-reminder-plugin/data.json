@@ -1,0 +1,36 @@
+{
+  "scanned": true,
+  "reminders": {
+    "Calendar/(Every F) Demi.md": [
+      {
+        "title": "Demi [statTime:: 13:45] [endTime:: 17:00] [repeat:: every week on Friday]  [created:: 2024-02-22]  [start:: 2024-03-01]  [scheduled:: 2024-03-01]",
+        "time": "2024-02-23 13:45",
+        "rowNumber": 11
+      },
+      {
+        "title": "Demi [statTime:: 13:45] [endTime:: 17:00] [repeat:: every week on Friday]  [created:: 2024-02-20]  [start:: 2024-02-23]  [scheduled:: 2024-02-23]",
+        "time": "2024-02-23 13:45",
+        "rowNumber": 12
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": true,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "TasksPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": true,
+    "useCustomEmojiForTasksPlugin": true,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}
