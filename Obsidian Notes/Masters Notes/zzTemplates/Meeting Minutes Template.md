@@ -1,3 +1,8 @@
+# Questions
+
+> [!NOTE] Q:
+> A
+
 # Notes
 - 
 

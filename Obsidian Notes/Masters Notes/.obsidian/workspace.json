@@ -4,23 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "019a2e9cd0e555c3",
+        "id": "d9cb049a0dcbad79",
         "type": "tabs",
         "children": [
           {
-            "id": "d1d63b67549523d6",
+            "id": "f62640e9e557f854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ea5ac4711600b15",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md"
+                "file": "Tasks.md"
               }
             }
           },
@@ -146,14 +155,23 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "ea24c551e6d85603",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Tasks.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 501.5,
-    "collapsed": true
+    "width": 501.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,19 +189,19 @@
     }
   },
   "floating": {
-    "id": "6eeefc3fcab9b88c",
+    "id": "f505dce605a9542a",
     "type": "floating",
     "children": [
       {
-        "id": "ed22b3b2d0604df5",
+        "id": "8aa31f97aaa22832",
         "type": "window",
         "children": [
           {
-            "id": "89ad35a3f98e215b",
+            "id": "932fd94b47dce941",
             "type": "tabs",
             "children": [
               {
-                "id": "3789aae4da3d1c28",
+                "id": "d1d63b67549523d6",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -196,19 +214,34 @@
           }
         ],
         "direction": "vertical",
-        "x": 448,
-        "y": 642,
-        "width": 1024,
-        "height": 800,
+        "x": 206,
+        "y": 587,
+        "width": 1588,
+        "height": 951,
         "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "d1d63b67549523d6",
+  "active": "3ea5ac4711600b15",
   "lastOpenFiles": [
     "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
+    "Tasks.md",
+    "Calendar/(Every R) Masters Meeting.md",
+    "Calendar/(Every F) Demi.md",
+    "Meeting Minutes/2024-W08.md",
+    "zzTemplates/Meeting Minutes Template.md",
     "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
+    "Setup Computer/Downloads.md",
+    "Setup Computer/Useful Latex Stuff.md",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "To do/24-02-22.md",
+    "To do/24-02-21.md",
+    "To do/24-02-14.md",
+    "To do/24-02-15.md",
+    "To do/24-02-16.md",
+    "To do/24-02-17.md",
+    "Meeting Minutes/2024-W07.md",
     "TUM.md",
     "Papers/Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
     "Papers/Stress_Testing_Autonomous_Racing_Overtake_Maneuvers_with_RRT_rxHO0M2.pdf",
@@ -218,30 +251,15 @@
     "Papers/HighPerformanceUnmappedTracks.pdf",
     "Papers/Accurate Mapping and Planning for Autonomous Racing.pdf",
     "Papers/AMZ Driverless The full autonomous racing system.pdf",
-    "Tasks.md",
-    "To do/24-02-21.md",
     "To do/24-02-23.md",
-    "To do/24-02-22.md",
-    "Setup Computer/Downloads.md",
     "To do/24-01-25.md",
     "To do/24-01-26.md",
     "To do/24-02-6.md",
     "To do/24-02-9.md",
     "To do/24-02-12.md",
     "To do/24-02-13.md",
-    "To do/24-02-14.md",
-    "To do/24-02-15.md",
-    "To do/24-02-16.md",
-    "To do/24-02-17.md",
     "To do/24-02-19.md",
-    "To do/24-02-20.md",
-    "Setup Computer/Useful Latex Stuff.md",
     "Setup Computer/Unconfirmed 772989.crdownload",
-    "Setup Computer",
-    "Calendar/(Every R) Masters Meeting.md",
-    "Meeting Minutes/2024-W07.md",
-    "Meeting Minutes/2024-W08.md",
-    "Tasks 1.md",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
