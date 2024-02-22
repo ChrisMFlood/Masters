@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/(Every R) Masters Meeting.md",
+                "file": "To do/24-02-22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/(Every R) Masters Meeting.md",
+                "file": "To do/24-02-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/(Every R) Masters Meeting.md"
+                "file": "To do/24-02-22.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Calendar/(Every R) Masters Meeting.md"
+                "file": "To do/24-02-22.md"
               }
             }
           }
@@ -238,12 +238,12 @@
   },
   "active": "af48e591de31aad4",
   "lastOpenFiles": [
-    "Calendar/(Every F) Demi.md",
     "Calendar/(Every R) Masters Meeting.md",
+    "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
+    "Calendar/(Every F) Demi.md",
     "To do/24-02-21.md",
     "To do/24-02-22.md",
     "Tasks.md",
-    "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
     "Meeting Minutes/2024-W08.md",
     "zzTemplates/Meeting Minutes Template.md",
     "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
