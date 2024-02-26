@@ -47,15 +47,71 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Calendar/(Every F) Demi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f6be61f0b8ba5f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To do/24-02-26.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "221c07d6977690b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Tasks.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "41c8c8b7e19f958b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "63fad5904092053f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "a35d4349b1af2377",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -114,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "8019d06aff0b1ef4",
@@ -149,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
               }
             }
           },
@@ -188,15 +245,17 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tasks.md"
+                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 205.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,13 +272,23 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "26937a2935bbf3b4",
+  "active": "a35d4349b1af2377",
   "lastOpenFiles": [
-    "zzTemplates/Daily Template.md",
+    "Tasks.md",
+    "Calendar/2024-02-27 donate blood.md",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Car",
+    "Highlights for Introduction to F1Tenth Racing Research 2024.md",
+    "Setup Computer/Useful Latex Stuff.md",
+    "F1 tenth course/7 Filtering.md",
+    "Questions.md",
+    "To do/24-02-26.md",
+    "F1 tenth course/1 Introduction to Autonomous Driving- Perception, Planning Control.md",
+    "F1 tenth course",
+    "Calendar/(Every F) Demi.md",
     "To do/24-02-23.md",
     "To do/24-02-22.md",
-    "Tasks.md",
-    "Calendar/(Every F) Demi.md",
+    "zzTemplates/Daily Template.md",
     "To do/24-02-20.md",
     "To do/24-02-21.md",
     "To do/24-02-19.md",
@@ -233,24 +302,13 @@
     "To do/24-02-6.md",
     "To do/24-02-9.md",
     "To do/24-01-26.md",
-    "To do/24-01-25.md",
-    "Calendar/(Every R) Masters Meeting.md",
-    "Calendar/2024-02-23 Pub lunch.md",
-    "Questions.md",
     "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
-    "Meeting Minutes/2024-W08.md",
-    "zzTemplates/Meeting Minutes Template.md",
-    "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
-    "Setup Computer/Downloads.md",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
     "Papers/Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
     "Papers/Stress_Testing_Autonomous_Racing_Overtake_Maneuvers_with_RRT_rxHO0M2.pdf",
     "Papers/MPCC.pdf",
     "Papers/Learn_to_See_Fast_Lessons_Learned_From_Autonomous_Racing_on_How_to_Develop_Perception_Systems.pdf",
     "Papers/HighPerformanceUnmappedTracks.pdf",
     "Papers/Accurate Mapping and Planning for Autonomous Racing.pdf",
-    "Papers/AMZ Driverless The full autonomous racing system.pdf",
-    "Setup Computer/Unconfirmed 772989.crdownload",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
