@@ -104,9 +104,12 @@
             "id": "a35d4349b1af2377",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+                "file": "Setup Computer/Useful Latex Stuff.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -170,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "8019d06aff0b1ef4",
@@ -206,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf",
+                "file": "Setup Computer/Useful Latex Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+                "file": "Setup Computer/Useful Latex Stuff.md"
               }
             }
           },
@@ -245,7 +247,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
+                "file": "Setup Computer/Useful Latex Stuff.md"
               }
             }
           }
@@ -274,14 +276,14 @@
   },
   "active": "a35d4349b1af2377",
   "lastOpenFiles": [
+    "Questions.md",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
     "Tasks.md",
     "Calendar/2024-02-27 donate blood.md",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
     "Car",
     "Highlights for Introduction to F1Tenth Racing Research 2024.md",
     "Setup Computer/Useful Latex Stuff.md",
     "F1 tenth course/7 Filtering.md",
-    "Questions.md",
     "To do/24-02-26.md",
     "F1 tenth course/1 Introduction to Autonomous Driving- Perception, Planning Control.md",
     "F1 tenth course",
