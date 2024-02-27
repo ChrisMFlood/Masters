@@ -4,117 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1ac257e711d8aeab",
+        "id": "4d92206a8907b922",
         "type": "tabs",
         "children": [
           {
-            "id": "af3b5729ed7969c6",
+            "id": "c4e99407bebb9033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc2b780f7a48bdf5",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "322e438b1295db15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26937a2935bbf3b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/(Every F) Demi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f6be61f0b8ba5f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To do/24-02-26.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "221c07d6977690b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41c8c8b7e19f958b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
-              }
-            }
-          },
-          {
-            "id": "63fad5904092053f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Introduction to F1Tenth Racing Research 2024.pdf"
-              }
-            }
-          },
-          {
-            "id": "a35d4349b1af2377",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup Computer/Useful Latex Stuff.md",
+                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup Computer/Useful Latex Stuff.md",
+                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup Computer/Useful Latex Stuff.md"
+                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md"
               }
             }
           },
@@ -247,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Setup Computer/Useful Latex Stuff.md"
+                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md"
               }
             }
           }
@@ -274,20 +180,25 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a35d4349b1af2377",
+  "active": "c4e99407bebb9033",
   "lastOpenFiles": [
-    "Questions.md",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Research Notes/Unifying F1TENTH Autonomous Racing.md",
+    "Papers/UnifyingF1TenthRacing.pdf",
+    "Papers/Index of Papers.md",
     "Tasks.md",
+    "To do/24-02-26.md",
+    "Calendar/(Every F) Demi.md",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Papers/Stress_Testing_Autonomous_Racing_Overtake_Maneuvers_with_RRT_rxHO0M2.pdf",
+    "Highlights for Introduction to F1Tenth Racing Research 2024.md",
+    "To do/24-02-27.md",
+    "Setup Computer/Useful Latex Stuff.md",
+    "Questions.md",
     "Calendar/2024-02-27 donate blood.md",
     "Car",
-    "Highlights for Introduction to F1Tenth Racing Research 2024.md",
-    "Setup Computer/Useful Latex Stuff.md",
     "F1 tenth course/7 Filtering.md",
-    "To do/24-02-26.md",
     "F1 tenth course/1 Introduction to Autonomous Driving- Perception, Planning Control.md",
     "F1 tenth course",
-    "Calendar/(Every F) Demi.md",
     "To do/24-02-23.md",
     "To do/24-02-22.md",
     "zzTemplates/Daily Template.md",
@@ -301,16 +212,11 @@
     "To do/24-02-14.md",
     "To do/24-02-13.md",
     "To do/24-02-12.md",
-    "To do/24-02-6.md",
-    "To do/24-02-9.md",
-    "To do/24-01-26.md",
     "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
     "Papers/Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
-    "Papers/Stress_Testing_Autonomous_Racing_Overtake_Maneuvers_with_RRT_rxHO0M2.pdf",
     "Papers/MPCC.pdf",
     "Papers/Learn_to_See_Fast_Lessons_Learned_From_Autonomous_Racing_on_How_to_Develop_Perception_Systems.pdf",
     "Papers/HighPerformanceUnmappedTracks.pdf",
-    "Papers/Accurate Mapping and Planning for Autonomous Racing.pdf",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
