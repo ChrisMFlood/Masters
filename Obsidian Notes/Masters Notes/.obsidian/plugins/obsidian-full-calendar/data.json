@@ -1,14 +1,19 @@
 {
   "calendarSources": [
     {
-      "type": "local",
-      "color": "hsl(258, 88%, 66%)",
-      "directory": "Calendar"
+      "type": "dailynote",
+      "color": "#000000",
+      "heading": "Tracking"
     },
     {
-      "type": "dailynote",
+      "type": "local",
       "color": "#ff0000",
-      "heading": "Tracking"
+      "directory": "Calendar/Work"
+    },
+    {
+      "type": "local",
+      "color": "#00ff00",
+      "directory": "Calendar/Personal"
     }
   ],
   "defaultCalendar": 0,
