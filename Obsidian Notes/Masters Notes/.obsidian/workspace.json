@@ -4,23 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "4d92206a8907b922",
+        "id": "146f522b365fa00d",
         "type": "tabs",
         "children": [
           {
-            "id": "88cc34ddf246a13d",
+            "id": "1d52247aaef6f2aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md",
+                "file": "zzTemplates/Daily Template.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3d8dd5ef94bd762",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cefc685bd6c60cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To do/24-02-28.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a58e1e5c06fa3896",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To do/24-02-28.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md",
+                "file": "To do/24-02-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md"
+                "file": "To do/24-02-28.md"
               }
             }
           },
@@ -153,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md"
+                "file": "To do/24-02-28.md"
               }
             }
           },
@@ -163,14 +198,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research Notes/Unifying F1TENTH Autonomous Racing.md",
+                "file": "To do/24-02-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "be559b5363e3dfe0",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -179,6 +222,11 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "templater-obsidian:Templater": false,
+      "weather-fetcher:Insert Weather": false,
+      "pomodoro-timer:Toggle timer panel": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -186,56 +234,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "periodic-notes:Open this week": false,
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "floating": {
-    "id": "1501d8a71ea7cf6e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "65372365576dbfeb",
-        "type": "window",
-        "children": [
-          {
-            "id": "517949eb8b564a9a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c4e99407bebb9033",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Papers/UnifyingF1TenthRacing.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 458,
-        "y": 572,
-        "width": 1383,
-        "height": 951,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "88cc34ddf246a13d",
+  "active": "a58e1e5c06fa3896",
   "lastOpenFiles": [
+    "To do/24-02-27.md",
+    "To do/24-02-28.md",
+    "Tasks.md",
+    "zzTemplates/Daily Template.md",
+    "202402281445.md",
     "Papers/UnifyingF1TenthRacing.pdf",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Papers/Autonomous racing vehicle - 2020 - Culley Garlick gil-Esteller Georviev Fursa vander-Sluis Ball Bradley.pdf",
     "Research Notes/Unifying F1TENTH Autonomous Racing.md",
     "Papers/A_A Index of Papers.md",
     "Questions.md",
-    "Tasks.md",
-    "zzTemplates/Daily Template.md",
     "To do/24-01-26.md",
     "Research Notes/Vehicle dynamics state estimation and localization for high performance race cars.md",
     "To do/24-02-23.md",
@@ -253,18 +269,14 @@
     "To do/24-02-9.md",
     "To do/24-02-6.md",
     "To do/24-01-25.md",
-    "To do/24-02-27.md",
     "Papers/MPCC.pdf",
     "Papers/A_Software_Architecture_for_an_Autonomous_Racecar.pdf",
     "Research Notes/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
-    "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
     "Papers/Stress_Testing_Autonomous_Racing_Overtake_Maneuvers_with_RRT_rxHO0M2.pdf",
     "Car",
     "F1 tenth course",
     "Papers/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf",
     "Papers/Vehicle_dynamics_state estimation_and_localization_for_high_performance_race_cars.pdf",
-    "Papers/Learn_to_See_Fast_Lessons_Learned_From_Autonomous_Racing_on_How_to_Develop_Perception_Systems.pdf",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]

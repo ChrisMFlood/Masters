@@ -4,6 +4,11 @@
       "type": "local",
       "color": "hsl(258, 88%, 66%)",
       "directory": "Calendar"
+    },
+    {
+      "type": "dailynote",
+      "color": "#ff0000",
+      "heading": "Tracking"
     }
   ],
   "defaultCalendar": 0,
