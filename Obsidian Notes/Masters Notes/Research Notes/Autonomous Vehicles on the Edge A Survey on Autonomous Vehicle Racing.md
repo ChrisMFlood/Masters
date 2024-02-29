@@ -9,16 +9,16 @@ the fundamental problems for autonomous racing perception are the following:
 	• Localization on wide areas without specific landmarks. 
 	• Precise localization information necessary to achieve high dynamic trajectory planning and control
 **Planning:** #planning 
-	- Global planning #global 
+	- Global planning #planning/global 
 		- provides an optimal path, better known as raceline (depicted in Figure 4), around the racetrack. In the context of racing, global planning often optimize for the lowest lap time. Therefore, when following this race- line, the car drives an optimal path around the racetrack – under the constraints of the raceline generation – as fast as possible.
 		- Research from the field of global planning can be roughly divided into different strategies using the objectives of the overall optimization: lap time, geometric properties of the race lines, or energy spent. Racing, as a context for optimization, provides a clear mea- sure of quality in lap time t lap on participating agents. So naturally lowering t lap is a popular choice when it comes to global planning
-	- Local planning (or motion planning) #local 
+	- Local planning (or motion planning) #planning/local local 
 		- plans on a finer granularity compared to global planning, usually under the assumption that an optimal global trajectory is provided. Local planners operate in a certain time horizon, and aim to avoid obstacles while still provide a fast and reliable path that does not deviate too much from the optimal global raceline.
 		- In local planning, the main objective is to plan the cars motion for a fixed horizon by avoiding collisions with either the environment or adversaries (Figure 6). There are three main strategies: 
 			1) Modifying the global plan via optimization. 
 			2) Sample multiple dynamically feasible trajectories and select the best one around obstacles. 
 			3) Sample in the free space around obstacles to find a feasible trajectory.
-	- Behavioral planning #behavioural 
+	- Behavioral planning #planning/behavioural 
 		- provides information about the high-level mission planning of the racecar. This can include the decision making about overtaking maneuvers (overtaking left/overtaking right/stay behind), the energy management strategy, interaction with other vehicles and the reaction to inputs from race control (e.g., flags, speed limits). As a summary
 		- In behavior planning, the focus is usually on high-level decision making on tasks such as selecting an appropriate weighting of different objectives, or selecting plans that impedes the progress of opponents. The research in this area mainly focuses on two different strategies: 
 			1) Assigning multiple cost functions with weighting and selecting the plan with the lowest overall cost. 
@@ -31,7 +31,7 @@ the fundamental problems for autonomous racing planning as the following:
 	• High re-planning frequency for real-time capability. 
 	• Decision making under high uncertainty. • Interaction planning with non-cooperative agents.
 
-**Control:**
+**Control:** #control
 the fundamental problems for autonomous racing control as the following: 
 	• Highly accurate path tracking for low lateral errors. 
 	• Highly accurate path tracking for low heading errors. 

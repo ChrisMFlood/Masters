@@ -12,5 +12,9 @@
   "periodic-notes",
   "obsidian-projects",
   "obsidian-zotero-desktop-connector",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "execute-code",
+  "templater-obsidian",
+  "weather-fetcher",
+  "pomodoro-timer"
 ]

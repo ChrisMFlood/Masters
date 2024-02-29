@@ -7,11 +7,11 @@
 
 # lidar preprocessing #lidar 
 
-# global Planning #planning #global
+# global Planning #planning/global
 
 > [!NOTE] Other papers to read
 > - > Christ et al. (2019) [[TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library.pdf#page=21&selection=44,51,46,1|TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge - Betz - 2023 - Journal of Field Robotics - Wiley Online Library, page 21]]
 
 
-# local planning #planning #local
+# local planning #planning/local
 

@@ -5,6 +5,7 @@
   "graph",
   "backlink",
   "canvas",
+  "outgoing-link",
   "tag-pane",
   "properties",
   "page-preview",
@@ -15,7 +16,10 @@
   "editor-status",
   "bookmarks",
   "markdown-importer",
+  "zk-prefixer",
   "outline",
   "word-count",
-  "file-recovery"
+  "workspaces",
+  "file-recovery",
+  "sync"
 ]

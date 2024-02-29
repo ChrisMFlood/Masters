@@ -21,7 +21,7 @@ hide backlink
 # Done
 ```tasks
 done
-sort by done
+sort by done reverse
 hide backlink
 hide recurrence rule
 hide created date

@@ -1,0 +1,7 @@
+{
+  "templateHeading": "# In Progress #inProgress ",
+  "deleteOnComplete": false,
+  "removeEmptyTodos": true,
+  "rolloverChildren": true,
+  "rolloverOnFileCreate": true
+}
