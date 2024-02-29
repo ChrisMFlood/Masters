@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do/24-02-28.md",
+                "file": "To do/24-02-29.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do/24-02-28.md",
+                "file": "To do/24-02-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do/24-02-28.md"
+                "file": "To do/24-02-29.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "To do/24-02-28.md"
+                "file": "To do/24-02-29.md"
               }
             }
           },
@@ -198,14 +198,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do/24-02-28.md",
+                "file": "To do/24-02-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "be559b5363e3dfe0",
+            "id": "74cbcb9ecdd0a9b0",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -241,7 +241,13 @@
   },
   "active": "ee40085191d6c658",
   "lastOpenFiles": [
+    "Tasks.md",
+    "To do/24-02-29.md",
     "Meeting Minutes/2024-W09.md",
+    "Code/Python test.md",
+    "Code",
+    "To do/24-02-28.md",
+    "zzTemplates/Daily Template.md",
     "Calendar/Personal/2024-04-01 Flight to Cape Town.md",
     "Calendar/Personal/2024-03-29 Flight to Joburg.md",
     "Calendar/Personal/2024-03-10 CTCT.md",
@@ -249,11 +255,8 @@
     "Untitled",
     "Calendar/Work",
     "zzTemplates/Meeting Minutes Template.md",
-    "To do/24-02-28.md",
-    "zzTemplates/Daily Template.md",
     "202402281445.md",
     "To do/24-02-27.md",
-    "Tasks.md",
     "Papers/UnifyingF1TenthRacing.pdf",
     "Introduction to F1Tenth Racing Research 2024.pdf",
     "Papers/Autonomous racing vehicle - 2020 - Culley Garlick gil-Esteller Georviev Fursa vander-Sluis Ball Bradley.pdf",
@@ -271,12 +274,9 @@
     "To do/24-02-17.md",
     "To do/24-02-16.md",
     "To do/24-02-15.md",
-    "To do/24-02-14.md",
-    "To do/24-02-13.md",
     "Papers/MPCC.pdf",
     "Papers/A_Software_Architecture_for_an_Autonomous_Racecar.pdf",
     "Papers/Stress_Testing_Autonomous_Racing_Overtake_Maneuvers_with_RRT_rxHO0M2.pdf",
-    "Car",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
