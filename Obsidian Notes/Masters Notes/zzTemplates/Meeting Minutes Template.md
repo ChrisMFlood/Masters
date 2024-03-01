@@ -1,7 +1,5 @@
 # Questions
 
-> [!NOTE] Q:
-> 
 
 # Notes
 - 
