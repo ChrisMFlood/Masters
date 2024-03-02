@@ -16,5 +16,7 @@
   "execute-code",
   "templater-obsidian",
   "weather-fetcher",
-  "pomodoro-timer"
+  "pomodoro-timer",
+  "cm-editor-syntax-highlight-obsidian",
+  "buttons"
 ]

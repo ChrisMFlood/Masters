@@ -7,4 +7,4 @@ date: 2024-02-27
 completed: false
 type: single
 ---
-- [-] donate blood  [created:: 2024-02-26]  [scheduled:: 2024-02-27]  [cancelled:: 2024-02-28]
+- [x] donate blood  [created:: 2024-02-26]  [scheduled:: 2024-02-27]  [completion:: 2024-03-01]

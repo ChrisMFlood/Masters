@@ -1,0 +1,6 @@
+{
+  "StartDate": "sunday",
+  "InsertAfter": "Day Planner",
+  "ProcessEntriesBelow": "",
+  "DefaultEventComposition": "{TIME} {CONTENT}"
+}
