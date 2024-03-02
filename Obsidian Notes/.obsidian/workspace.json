@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/Calendar/(Every F) Demi.md",
+                "file": "Masters Notes/Tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7cc96758715bb31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/Calendar/(Every F) Demi.md",
+                "file": "Masters Notes/Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/Calendar/(Every F) Demi.md",
+                "file": "Masters Notes/Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/Calendar/(Every F) Demi.md"
+                "file": "Masters Notes/Questions.md"
               }
             }
           },
@@ -173,12 +186,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d9c874716212cb8c",
+  "active": "c7cc96758715bb31",
   "lastOpenFiles": [
-    "Masters Notes/Calendar/2024-02-23 Pub lunch.md",
-    "Masters Notes/Calendar/(Every R) Masters Meeting.md",
-    "Masters Notes/Calendar/(Every F) Demi.md",
     "Masters Notes/Tasks.md",
+    "Masters Notes/Calendar/(Every F) Demi.md",
+    "Masters Notes/Calendar/(Every R) Masters Meeting.md",
+    "Masters Notes/Calendar/2024-02-23 Pub lunch.md",
     "Masters Notes/Meeting Minutes/2024-W07.md",
     "Masters Notes/Meeting Minutes/2024-W08.md",
     "Masters Notes/To do/24-02-23.md",
