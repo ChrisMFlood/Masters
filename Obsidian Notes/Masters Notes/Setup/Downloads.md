@@ -47,6 +47,7 @@ sudo apt install -f
 
 # Slack
 ```
+sudo snap install slack
 ```
 
 # Terminator
@@ -98,5 +99,7 @@ code --install-extension mathematic.vscode-latex
 code --install-extension tecosaur.latex-utilities
 
 sudo apt install terminator
+
+sudo snap install slack
 
 ```
