@@ -1,5 +1,5 @@
 - [Table Code generator](https://www.tablesgenerator.com/)
-- Shortcuts for Bold, Underline and Italics LaTeX VSCode
+- Shortcuts for Bold, Underline and Italics etc LaTeX VSCode
 	- File->Preferences->Keyboard Shortcuts ->Open Keyboard Shortcuts(JSON)-> Then do the following
 ```JSON
 // Place your key bindings in this file to override the defaults

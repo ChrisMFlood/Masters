@@ -16,20 +16,33 @@
             }
           },
           {
-            "id": "a490ded31902db9d",
+            "id": "553af65827e7cd61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do/24-03-5.md",
+                "file": "Tasks.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9fb9212feef2923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup/Downloads.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do/24-03-5.md",
+                "file": "Setup/Downloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do/24-03-5.md"
+                "file": "Setup/Downloads.md"
               }
             }
           },
@@ -162,7 +175,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "To do/24-03-5.md"
+                "file": "Setup/Downloads.md"
               }
             }
           },
@@ -172,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do/24-03-5.md",
+                "file": "Setup/Downloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,20 +198,28 @@
               "type": "timer-view",
               "state": {}
             }
+          },
+          {
+            "id": "879ccbf47b58aa51",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-sidebar-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 237.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "obsidian-projects:Open projects": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "templater-obsidian:Templater": false,
       "weather-fetcher:Insert Weather": false,
       "pomodoro-timer:Toggle timer panel": false,
       "switcher:Open quick switcher": false,
@@ -206,24 +227,37 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "templater-obsidian:Templater": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "a490ded31902db9d",
+  "active": "d9fb9212feef2923",
   "lastOpenFiles": [
+    "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing/RaceTrackGenerator.py.md",
     "Setup/Downloads.md",
+    "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing",
+    "home/chris/Desktop/f1tenth_sim/f1tenth_sim",
+    "home/chris/Desktop/f1tenth_sim",
+    "home/chris/Desktop",
+    "home/chris",
+    "home",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "Setup/Simulators.md",
+    "Tasks.md",
+    "Setup/Useful Latex Stuff.md",
     "To do/24-03-5.md",
     "To do/24-03-4.md",
-    "Setup/Simulators.md",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
-    "Tasks.md",
+    "zz.md",
+    "zzzzzzzzz.md",
+    "zzzzzzz.md",
+    "Questions.md",
+    "Calendar/Work/(Every F) Pocket Cube Meeting.md",
     "Meeting Minutes/2024-W09.md",
     "To do/24-03-1.md",
-    "Questions.md",
     "Research Notes/A novel obstacle avoidance algorithm ‘‘Follow the Gap Method’’.md",
     "Research Notes/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
     "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
@@ -237,20 +271,8 @@
     "Calendar/Personal/2024-03-10 CTCT.md",
     "Papers/A_A Index of Papers.md",
     "Papers/MPCC.pdf",
-    "zzTemplates/Meeting Minutes Template.md",
-    "zzTemplates/Daily Template.md",
     "Demi/Prac3 Quiz Memo.pdf",
     "Demi/CS214_2024_Prac_03_Memo.pdf",
-    "Demi/Prac3 Quiz Memo.pdf.crdownload",
-    "Code",
-    "To do/24-02-28.md",
-    "Calendar/Personal",
-    "Untitled",
-    "Calendar/Work",
-    "202402281445.md",
-    "To do/24-02-27.md",
-    "Papers/UnifyingF1TenthRacing.pdf",
-    "To do/24-01-26.md",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]

@@ -32,8 +32,21 @@ code --install-extension tecosaur.latex-utilities
 
 # Ben F1tenth_sim
 ```
+cd Desktop
+git clone https://github.com/ChrisMFlood/f1tenth_sim.git
+cd f1tenth_sim
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+git submodule init
+git submodule update
+cd trajectory_planning_helpers
+pip install -e .
 ```
-
+To run pure pursuit:
+- run [pure pursuit](/home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing/RaceTrackGenerator.py) 
+	- change `params.mu` in `generate_racelines()` to 0.6 and 0.7
 # Obsidian
 ```
 ```
@@ -102,4 +115,17 @@ sudo apt install terminator
 
 sudo snap install slack
 
+cd Desktop
+git clone https://github.com/ChrisMFlood/f1tenth_sim.git
+cd f1tenth_sim
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+git submodule init
+git submodule update
+cd trajectory_planning_helpers
+pip install -e .
+
+cd ~
 ```
