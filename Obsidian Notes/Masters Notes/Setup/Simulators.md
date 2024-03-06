@@ -1,3 +1,15 @@
+Run  [[Computer Setup (Install All Software and Simulators)]] to install everything
+Install [Python](Software) before installing simulators
+# F1tenth Python Gym
+```
+virtualenv gym_env
+source gym_env/bin/activate
+git clone https://github.com/f1tenth/f1tenth_gym.git
+cd f1tenth_gym
+pip install -e .
+```
+See [[Skeleton for simulation loop]] to create simulation
+
 # F1tenth Ros simulator
 ```
 git clone https://github.com/f1tenth/f1tenth_gym
@@ -11,6 +23,22 @@ cd ..
 rosdep install -i --from-path src --rosdistro humble -y
 
 colcon build
-
-
 ```
+
+# Ben F1tenth_sim
+```
+cd Desktop
+git clone https://github.com/ChrisMFlood/f1tenth_sim.git
+cd f1tenth_sim
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+git submodule init
+git submodule update
+cd trajectory_planning_helpers
+pip install -e .
+```
+To run pure pursuit:
+- run [pure pursuit](/home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing/RaceTrackGenerator.py) 
+	- change `params.mu` in `generate_racelines()` to 0.6 and 0.7

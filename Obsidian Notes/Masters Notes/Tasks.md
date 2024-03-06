@@ -27,11 +27,3 @@ hide backlink
 hide recurrence rule
 hide created date
 ```
-
-
-rk [startTime:: 11:30] [endTime:: 12:30]
-- Lunch  [startTime:: 12:31] [endTime:: 12:57]
-- Work [startTime:: 12:58] [endTime:: 14:13]
-- Break  [startTime:: 14:13] [endTime:: 14:44]
-- Work [startTime:: 14:44] [endTime:: 16:10]
-- Work [startTime:: 16:11] [endTime:: 17:36]

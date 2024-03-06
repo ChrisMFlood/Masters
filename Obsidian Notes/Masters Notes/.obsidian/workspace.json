@@ -19,9 +19,17 @@
             "id": "553af65827e7cd61",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f48dc3e27d0b7dc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "Setup/Software.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -29,20 +37,20 @@
             }
           },
           {
-            "id": "d9fb9212feef2923",
+            "id": "07facde39b6b4c52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup/Downloads.md",
-                "mode": "preview",
+                "file": "Car/Python Gym/Skeleton for simulation loop.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup/Downloads.md",
+                "file": "Car/Python Gym/Skeleton for simulation loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup/Downloads.md"
+                "file": "Car/Python Gym/Skeleton for simulation loop.md"
               }
             }
           },
@@ -175,7 +183,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Setup/Downloads.md"
+                "file": "Car/Python Gym/Skeleton for simulation loop.md"
               }
             }
           },
@@ -185,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setup/Downloads.md",
+                "file": "Car/Python Gym/Skeleton for simulation loop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5,
-    "collapsed": true
+    "width": 237.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,25 +237,37 @@
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open this week": false,
       "templater-obsidian:Templater": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "d9fb9212feef2923",
+  "active": "07facde39b6b4c52",
   "lastOpenFiles": [
+    "Setup/Software.md",
+    "Setup/Computer Setup (Install All Software and Simulators).md",
+    "Car/Python Gym/Skeleton for simulation loop.md",
+    "Setup/Simulators.md",
+    "Car/Python Gym",
+    "Tasks.md",
+    "Papers/MPCC.pdf",
+    "[[Computer.md",
+    "To do/24-03-6.md",
+    "To do/24-02-23.md",
+    "To do/24-02-26.md",
+    "To do/24-02-22.md",
+    "To do/24-02-20.md",
+    "To do/24-02-21.md",
+    "Introduction to F1Tenth Racing Research 2024.pdf",
+    "To do/24-01-26.md",
+    "Setup/Useful Latex Stuff.md",
     "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing/RaceTrackGenerator.py.md",
-    "Setup/Downloads.md",
     "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing",
     "home/chris/Desktop/f1tenth_sim/f1tenth_sim",
     "home/chris/Desktop/f1tenth_sim",
     "home/chris/Desktop",
     "home/chris",
     "home",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
-    "Setup/Simulators.md",
-    "Tasks.md",
-    "Setup/Useful Latex Stuff.md",
     "To do/24-03-5.md",
     "To do/24-03-4.md",
     "zz.md",
@@ -260,19 +279,7 @@
     "To do/24-03-1.md",
     "Research Notes/A novel obstacle avoidance algorithm ‘‘Follow the Gap Method’’.md",
     "Research Notes/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
-    "Research Notes/TUM autonomous motorsport An autonomous racing software for the Indy Autonomous Challenge.md",
-    "Research Notes/Unifying F1TENTH Autonomous Racing.md",
-    "Research Notes/Vehicle dynamics state estimation and localization for high performance race cars.md",
-    "Calendar/Personal/2024-03-29 Flight to Joburg.md",
-    "To do/24-02-18.md",
-    "Code/Python test.md",
-    "Calendar/Personal/2024-04-01 Flight to Cape Town.md",
-    "To do/24-02-29.md",
-    "Calendar/Personal/2024-03-10 CTCT.md",
-    "Papers/A_A Index of Papers.md",
-    "Papers/MPCC.pdf",
     "Demi/Prac3 Quiz Memo.pdf",
-    "Demi/CS214_2024_Prac_03_Memo.pdf",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
