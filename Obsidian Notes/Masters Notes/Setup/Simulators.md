@@ -11,20 +11,51 @@ pip install -e .
 See [[Skeleton for simulation loop]] to create simulation
 
 # F1tenth Ros simulator
+[Documentation](https://github.com/f1tenth/f1tenth_gym_ros)
+install docker first and ROS2
 ```
 git clone https://github.com/f1tenth/f1tenth_gym
 cd f1tenth_gym && pip3 install -e .
+```
+new terminal
+```
+cd $HOME && mkdir -p sim_ws/src
 
 cd $HOME/sim_ws/src
 git clone https://github.com/f1tenth/f1tenth_gym_ros
-
+```
+change the `map_path` parameter to point to the correct location `sim.yaml`. It should be `'<your_home_dir>/sim_ws/src/f1tenth_gym_ros/maps/levine'`
+```
 source /opt/ros/humble/setup.bash
 cd ..
 rosdep install -i --from-path src --rosdistro humble -y
 
 colcon build
 ```
-
+in a new terminal
+```
+cd $HOME/sim_ws/src
+cd f1tenth_gym_ros
+```
+change foxy to humble in docker file
+```
+docker-compose up
+```
+in a new terminal
+```
+docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
+```
+got to [noVNC](http://localhost:8080/vnc.html) and connect 
+## To Launch
+```
+$ source /opt/humble/foxy/setup.bash
+$ source install/local_setup.bash
+$ ros2 launch f1tenth_gym_ros gym_bridge_launch.py
+```
+In another terminal for keyboard control
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 # Ben F1tenth_sim
 ```
 cd Desktop

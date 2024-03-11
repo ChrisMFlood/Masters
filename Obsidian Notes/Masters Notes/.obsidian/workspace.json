@@ -11,11 +11,77 @@
             "id": "c342358c87ff0b9b",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "To do/24-03-11.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c87e1b1fa7820919",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "861268de73877fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup/Simulators.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aadc8b54f190d182",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup/Software.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0261e39e1d7880f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "138dfce30d87a783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -109,6 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +191,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tasks.md"
+              }
             }
           },
           {
@@ -144,7 +213,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Tasks.md"
+              }
             }
           },
           {
@@ -153,6 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,44 +273,44 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c342358c87ff0b9b",
+  "active": "138dfce30d87a783",
   "lastOpenFiles": [
+    "Car/Simulators/Ros Gym.md",
+    "Car/Untitled.md",
+    "Car/Simulators",
+    "To do/24-03-11.md",
+    "Untitled.md",
     "Setup/Software.md",
-    "To do/24-03-7.md",
+    "Setup/Simulators.md",
     "Tasks.md",
+    "To do/24-03-8.md",
+    "To do/24-03-6.md",
+    "To do/24-03-7.md",
+    "Demi/74HC_HCT32_4.pdf",
+    "Demi/74HC_HCT32_4.pdf.crdownload",
+    "Demi/74HC_HCT08_3.pdf",
+    "Demi/74HC_HCT08_3.pdf.crdownload",
+    "Demi/74HC_HCT04_3.pdf",
+    "Demi/74HC_HCT04_3.pdf.crdownload",
+    "Demi/74HC_HCT00.pdf",
+    "Demi/74HC_HCT00.pdf.crdownload",
     "Meeting Minutes/2024-W10.md",
     "Car/Python Gym/Skeleton for simulation loop.md",
     "Setup/Computer Setup (Install All Software and Simulators).md",
-    "Setup/Simulators.md",
     "Car/Python Gym",
-    "Papers/MPCC.pdf",
     "[[Computer.md",
-    "To do/24-03-6.md",
     "To do/24-02-23.md",
     "To do/24-02-26.md",
     "To do/24-02-22.md",
     "To do/24-02-20.md",
     "To do/24-02-21.md",
-    "Introduction to F1Tenth Racing Research 2024.pdf",
     "To do/24-01-26.md",
     "Setup/Useful Latex Stuff.md",
     "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing/RaceTrackGenerator.py.md",
-    "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing",
-    "home/chris/Desktop/f1tenth_sim/f1tenth_sim",
-    "home/chris/Desktop/f1tenth_sim",
-    "home/chris/Desktop",
-    "home/chris",
-    "home",
     "To do/24-03-5.md",
     "To do/24-03-4.md",
     "zz.md",
     "zzzzzzzzz.md",
-    "zzzzzzz.md",
-    "Questions.md",
-    "Calendar/Work/(Every F) Pocket Cube Meeting.md",
-    "Meeting Minutes/2024-W09.md",
-    "To do/24-03-1.md",
-    "Demi/Prac3 Quiz Memo.pdf",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
