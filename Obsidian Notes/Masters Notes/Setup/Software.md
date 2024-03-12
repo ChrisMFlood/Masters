@@ -2,6 +2,8 @@ Run  [[Computer Setup (Install All Software and Simulators)]] to install everyth
 # Python
 ```
 sudo apt install python3
+sudo apt install python3-pip
+sudo apt install python3-colcon-common-extensions
 ```
 # VS code
 ```
@@ -52,11 +54,80 @@ sudo apt install ros-humble-desktop
 
 sudo apt install ros-humble-ros-base
 
-# Replace ".bash" with your shell if you're not using bash
-# Possible values are: setup.bash, setup.sh, setup.zsh
-source /opt/ros/humble/setup.bash
-```
+sudo apt install ros-dev-tools
 
+sudo apt install python3-colcon-common-extensions
+
+gedit ~/.bashrc
+```
+add the following to the end of the `~/.bashrc` script:
+```
+source /opt/ros/humble/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+```
+## Setup Ros2 Workspace
+```
+mkdir ros2_ws #change ros2_ws to anything
+cd ros2_ws
+mkdir src
+colcon build
+```
+or (setup script in home directory to do it automatically)[[create ros2 workspace]]
+```
+cd ~ # make sure in home directory
+./ros2_ws.sh
+```
+add `setup.bash` to `~/.bashrc` script
+## Create package
+```
+cd {worksapce}/src
+ros2 pkg create {package name} --build-type ament_python --dependencies rclpy
+```
+`colcon build` to compile package
+`colcon build --packages-select` to select packages to compile
+
+if error/warning `/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.`:
+```
+pip3 install setuptools==58.2.0
+```
+## Nodes
+```
+cd {worksapce}/{src}/{package}
+cd {package} # folder with same name as package
+touch {node name.py}
+```
+in VS
+```python
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+
+def main(args=None):
+	rclpy.init(args=args)
+	node = Node("py_test")
+	node.get_logger().info("Hello ROS2")
+	rclpy.spin(node)
+	rclpy.shutdown()
+
+if __name__ == '__main__':
+	main()
+```
+in terminal
+```
+chmod +x {node file name}
+./{node file name}
+```
+run from `install`
+```python
+'console_scripts': [
+	"py_node = my_py_pkg.my_first_node:main"
+],
+```
+```
+cd ~/install/{pkg}/{pkg}
+source ~/.bashrc
+./{node file name}
+```
 # Obsidian
 ```
 ```

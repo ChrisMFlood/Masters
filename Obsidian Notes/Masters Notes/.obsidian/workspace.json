@@ -29,19 +29,6 @@
             }
           },
           {
-            "id": "861268de73877fad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setup/Simulators.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aadc8b54f190d182",
             "type": "leaf",
             "state": {
@@ -55,72 +42,20 @@
             }
           },
           {
-            "id": "b0261e39e1d7880f",
+            "id": "3f05c902270197c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "138dfce30d87a783",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To do/24-03-11.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4efa58707894c1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7562b39634a22b11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/Work/(Every T) Neil Sat Meeting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5078447b362061d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks.md",
-                "mode": "source",
+                "file": "Setup/Software.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -214,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "Setup/Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "Setup/Software.md"
               }
             }
           },
@@ -253,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tasks.md"
+                "file": "Setup/Software.md"
               }
             }
           },
@@ -263,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "Setup/Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,17 +247,26 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a5078447b362061d",
+  "active": "3f05c902270197c8",
   "lastOpenFiles": [
-    "Calendar/Work/(Every T) Neil Sat Meeting.md",
-    "Tasks.md",
     "To do/24-03-11.md",
+    "Setup/Software.md",
+    "Setup/Computer Setup (Install All Software and Simulators).md",
     "Car/Simulators/Ros Gym.md",
+    "Car/Python Gym/Skeleton for simulation loop.md",
+    "Setup/Simulators.md",
+    "create ros2 workspace.md",
+    "home/chris/ros2_ws.sh.md",
+    "home/chris",
+    "home",
+    "Untitled 1.md",
+    "Tasks.md",
+    "Udemy Ros Course",
+    "Untitled.md",
+    "To do/24-03-12.md",
+    "Calendar/Work/(Every T) Neil Sat Meeting.md",
     "Car/Untitled.md",
     "Car/Simulators",
-    "Untitled.md",
-    "Setup/Software.md",
-    "Setup/Simulators.md",
     "To do/24-03-8.md",
     "To do/24-03-6.md",
     "To do/24-03-7.md",
@@ -332,12 +276,7 @@
     "Demi/74HC_HCT08_3.pdf.crdownload",
     "Demi/74HC_HCT04_3.pdf",
     "Demi/74HC_HCT04_3.pdf.crdownload",
-    "Demi/74HC_HCT00.pdf",
-    "Demi/74HC_HCT00.pdf.crdownload",
     "Meeting Minutes/2024-W10.md",
-    "Car/Python Gym/Skeleton for simulation loop.md",
-    "Setup/Computer Setup (Install All Software and Simulators).md",
-    "Car/Python Gym",
     "[[Computer.md",
     "To do/24-02-23.md",
     "To do/24-02-26.md",
@@ -346,10 +285,6 @@
     "To do/24-02-21.md",
     "To do/24-01-26.md",
     "Setup/Useful Latex Stuff.md",
-    "home/chris/Desktop/f1tenth_sim/f1tenth_sim/classic_racing/RaceTrackGenerator.py.md",
-    "To do/24-03-5.md",
-    "To do/24-03-4.md",
-    "zz.md",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]
