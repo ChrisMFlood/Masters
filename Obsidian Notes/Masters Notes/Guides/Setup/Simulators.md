@@ -48,9 +48,10 @@ docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
 got to [noVNC](http://localhost:8080/vnc.html) and connect 
 ## To Launch
 ```
-$ source /opt/humble/foxy/setup.bash
-$ source install/local_setup.bash
-$ ros2 launch f1tenth_gym_ros gym_bridge_launch.py
+cd $HOME/sim_ws
+source /opt/ros/humble/setup.bash
+source install/local_setup.bash
+ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 In another terminal for keyboard control
 ```

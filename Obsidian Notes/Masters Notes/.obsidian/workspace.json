@@ -60,7 +60,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do/24-03-13.md",
+                "file": "Guides/Setup/Simulators.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5bb318500a93054",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guides/ROS2 commands.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -162,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do/24-03-13.md",
+                "file": "Guides/Setup/Simulators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do/24-03-13.md"
+                "file": "Guides/Setup/Simulators.md"
               }
             }
           },
@@ -201,7 +214,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "To do/24-03-13.md"
+                "file": "Guides/Setup/Simulators.md"
               }
             }
           },
@@ -211,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do/24-03-13.md",
+                "file": "Guides/Setup/Simulators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,8 +283,13 @@
   },
   "active": "ada5b9efdf1ec044",
   "lastOpenFiles": [
-    "Tasks.md",
+    "Guides/ROS2 commands.md",
+    "Guides/Setup/Simulators.md",
+    "Guides/Setup/Software.md",
+    "Guides/Simulators/Ros Gym.md",
+    "Guides/Setup/create ros2 workspace.md",
     "To do/24-03-13.md",
+    "Tasks.md",
     "Untitled.md",
     "To do/24-03-12.md",
     "zzTemplates/Daily Template.md",
@@ -279,14 +297,9 @@
     "To do/24-03-11.md",
     "To do/24-03-8.md",
     "Meeting Minutes/2024-W11.md",
-    "Guides/Setup/Software.md",
     "Untitled 1.md",
-    "Guides/ROS2 commands.md",
-    "Guides/Setup/create ros2 workspace.md",
     "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
-    "Guides/Simulators/Ros Gym.md",
     "Guides/Python Gym/Skeleton for simulation loop.md",
-    "Guides/Setup/Simulators.md",
     "home/chris/ros2_ws.sh.md",
     "home/chris",
     "home",
