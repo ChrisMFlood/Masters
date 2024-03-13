@@ -74,5 +74,13 @@
       ],
       "key": "M"
     }
+  ],
+  "templater-obsidian:zzTemplates/Task Calendar log.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "AltGraph"
+    }
   ]
 }

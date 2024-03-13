@@ -1,5 +1,5 @@
 Run  [[Computer Setup (Install All Software and Simulators)]] to install everything
-Install [Python](Software) before installing simulators
+Install [Python](Software.md) before installing simulators
 # F1tenth Python Gym
 ```
 virtualenv gym_env
