@@ -1,11 +1,6 @@
 {
   "calendarSources": [
     {
-      "type": "dailynote",
-      "color": "#000000",
-      "heading": "Tracking"
-    },
-    {
       "type": "local",
       "color": "#ff0000",
       "directory": "Calendar/Work"
@@ -14,6 +9,11 @@
       "type": "local",
       "color": "#00ff00",
       "directory": "Calendar/Personal"
+    },
+    {
+      "type": "dailynote",
+      "color": "hsl(258, 88%, 66%)",
+      "heading": "Day planner #todo"
     }
   ],
   "defaultCalendar": 0,

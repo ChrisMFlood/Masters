@@ -1,6 +1,6 @@
 {
-  "templateHeading": "# In Progress #inProgress ",
-  "deleteOnComplete": false,
+  "templateHeading": "# Day planner #todo ",
+  "deleteOnComplete": true,
   "removeEmptyTodos": true,
   "rolloverChildren": true,
   "rolloverOnFileCreate": true

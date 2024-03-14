@@ -1,4 +1,4 @@
-```
+```bash
 #!/bin/bash
 
 echo "Enter a name for your ROS 2 workspace: "

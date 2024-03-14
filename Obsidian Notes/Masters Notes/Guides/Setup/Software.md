@@ -1,23 +1,23 @@
 Run  [[Computer Setup (Install All Software and Simulators)]] to install everything
 # Python
-```
+```bash
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-colcon-common-extensions
 ```
 # VS code
-```
+```bash
 wget -O vscode.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 sudo dpkg -i vscode.deb
 ```
 or
-```
+```bash
 sudo apt update
 sudo apt install code
 ```
 
 # Latex
-```
+```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install texlive-full
@@ -29,7 +29,7 @@ code --install-extension tecosaur.latex-utilities
 ```
 [[Useful Latex Stuff]] for shortcuts in latex
 # ROS2 (Humble)
-```
+```bash
 locale  # check for UTF-8
 
 sudo apt update && sudo apt install locales
@@ -61,37 +61,40 @@ sudo apt install python3-colcon-common-extensions
 gedit ~/.bashrc
 ```
 add the following to the end of the `~/.bashrc` script:
-```
+```bash
 source /opt/ros/humble/setup.bash
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
 [[ROS2 commands]] 
 
 # Obsidian
-```
+download snap file from [Obsidian](https://obsidian.md/download)
+```bash
+cd Downloads
+snap install obsidian_1.5.8_amd64.snap --dangerous --classic
 ```
 
 # Chrome
-```
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -f
 ```
 
 # Slack
-```
+```bash
 sudo snap install slack
 ```
 
 # Terminator
-```
+```bash
 sudo apt update
 sudo apt upgrade 
 sudo apt install terminator
 ```
 
 # Docker
-```
+```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
 # Add Docker's official GPG key:
@@ -109,7 +112,7 @@ echo \
 sudo apt-get update
 ```
 ## Docker Compose
-```
+```bash
 sudo apt install gnome-terminal
 sudo apt-get update
 cd Downloads
