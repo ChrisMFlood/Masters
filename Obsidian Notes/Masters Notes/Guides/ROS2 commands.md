@@ -99,14 +99,78 @@ def subscriberCallback(self, msg):
 # Service
 ## Server
 ```python
-sef.server_ = self.creat_service(service type, "service name", serviceCallback)
+self.server_ = self.creat_service(service type, "service name", serviceCallback)
 
 def serviceCallback(self, request, response):
 	# do something
 	return response
 ```
+Call server from terminal:
+```bash
+ros2 service call /<service_name> <service_Type> "{request: value}"
+```
 
 ## Client
 ```python
+class serverClient(Node):
+def __init__(self):
+super().__init__("serverClient")
+self.serverName = "add_two_ints"
+self.sendRequest(7,3)
+self.sendRequest(7,4)
 
+def sendRequest(self, a, b):
+self.get_logger().info("Sent request to server: " + self.serverName)
+self.client_ = self.create_client(serverType, self.serverName)
+while not self.client_.wait_for_service(timeout_sec=1.0):
+if not rclpy.ok():
+self.get_logger().error('Interruped while waiting for the server.')
+return
+else:
+self.get_logger().warning('Waiting for server: ' + self.serverName)
+
+self.request_ = serverType.Request()
+self.request_.a = a
+self.request_.b = b
+future = self.client_.call_async(self.request_)
+future.add_done_callback(self.client_response_callback)
+
+def client_response_callback(self, future):
+self.response = future.result()
+self.get_logger().info(str(self.request_))
+self.get_logger().info('Received response: '+str(self.response.sum))
 ```
+
+# Interfaces
+## Create Interfaces
+```bash
+cd {worksapce}/src
+ros2 pkg create {package name}
+cd {package name}
+rm -r include/
+rm -d src/
+mkdir msg
+```
+In package.xml:
+```html 
+<build_depend>rosidl_defualt_generators</build_depend>
+<exec_depend>rosidl_defualt_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+In CMake:
+```cpp
+find_package(rosidl_default_generators REQUIRED) 
+# below find_package(ament_cmake REQUIRED)
+```
+```cpp
+rosidl_generate_interfaces(${PROJECT_NAME}
+	"msg/HardwareStatus"
+)
+ament_export_dependencies(rosidl_defualt_runtime) 
+# just before ament_package()
+```
+Package name must start with witch capital and no dash or underscore + no msg
+
+
+
+

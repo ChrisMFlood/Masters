@@ -3862,7 +3862,6 @@ function create_fragment4(ctx) {
   let t0;
   let t1;
   let span0;
-  let div0_class_value;
   let t2;
   let div1;
   let span1;
@@ -3970,8 +3969,7 @@ function create_fragment4(ctx) {
       if (if_block3)
         if_block3.c();
       attr(span0, "class", "svelte-1bkzjfd");
-      attr(div0, "class", div0_class_value = "status " + /*$timer*/
-      (ctx[4].inSession ? "" : "control") + " svelte-1bkzjfd");
+      attr(div0, "class", "status control svelte-1bkzjfd");
       attr(span1, "class", "timer-text svelte-1bkzjfd");
       attr(div1, "class", "control svelte-1bkzjfd");
       attr(div2, "class", "timer-display svelte-1bkzjfd");
@@ -4100,11 +4098,6 @@ function create_fragment4(ctx) {
           if_block1.c();
           if_block1.m(div0, t1);
         }
-      }
-      if (!current || dirty & /*$timer*/
-      16 && div0_class_value !== (div0_class_value = "status " + /*$timer*/
-      (ctx2[4].inSession ? "" : "control") + " svelte-1bkzjfd")) {
-        attr(div0, "class", div0_class_value);
       }
       if ((!current || dirty & /*$timer*/
       16) && t3_value !== (t3_value = /*$timer*/
@@ -4661,9 +4654,6 @@ var _Timer = class {
   }
   toggleMode(callback) {
     this.update((s) => {
-      if (s.inSession) {
-        return s;
-      }
       let updated = this.endSession(s);
       if (callback) {
         callback(updated);
@@ -4962,7 +4952,6 @@ function instance5($$self, $$props, $$invalidate) {
     menu.addItem((item) => {
       const mode2 = `Switch ${$store.mode === "WORK" ? "Break" : "Work"} `;
       item.setTitle(mode2);
-      item.setDisabled($store.running || $store.inSession);
       item.onClick(() => {
         store.toggleMode();
       });
