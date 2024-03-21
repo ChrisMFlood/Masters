@@ -23,9 +23,7 @@ cd $HOME && mkdir -p sim_ws/src
 
 cd $HOME/sim_ws/src
 git clone https://github.com/f1tenth/f1tenth_gym_ros
-```
-change the `map_path` parameter to point to the correct location `sim.yaml`. It should be `'<your_home_dir>/sim_ws/src/f1tenth_gym_ros/maps/levine'`
-```bash
+
 source /opt/ros/humble/setup.bash
 cd ..
 rosdep install -i --from-path src --rosdistro humble -y
@@ -44,6 +42,7 @@ docker-compose up
 in a new terminal
 ```bash
 docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
+docker exec -it e339a8994f314fbf0b560f5115c69a3c07b0d941ccf2a7d6b6afca07a8eb45db /bin/bash
 ```
 got to [noVNC](http://localhost:8080/vnc.html) and connect 
 ## To Launch
