@@ -35,26 +35,41 @@ in a new terminal
 cd $HOME/sim_ws/src
 cd f1tenth_gym_ros
 ```
-change foxy to humble in docker file
+
 ```bash
-docker-compose up
+sudo docker-compose up
 ```
 in a new terminal
 ```bash
-docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
-docker exec -it e339a8994f314fbf0b560f5115c69a3c07b0d941ccf2a7d6b6afca07a8eb45db /bin/bash
+sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
 ```
 got to [noVNC](http://localhost:8080/vnc.html) and connect 
 ## To Launch
 ```bash
-cd $HOME/sim_ws
-source /opt/ros/humble/setup.bash
+sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
+```
+```bash
+source /opt/ros/foxy/setup.bash
 source install/local_setup.bash
+cd 
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 In another terminal for keyboard control
 ```bash
+sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
+```
+```bash
+source /opt/ros/foxy/setup.bash
+source install/local_setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+To run any new node
+```bash
+sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
+```
+```bash
+source /opt/ros/foxy/setup.bash
+source install/local_setup.bash
 ```
 # Ben F1tenth_sim
 ```bash

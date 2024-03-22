@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Pull Masters Folder
+Exec=/home/chris/autoGitCommands/pull_Masters.sh

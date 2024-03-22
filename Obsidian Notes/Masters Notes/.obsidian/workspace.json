@@ -34,8 +34,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do/24-03-20.md",
-                "mode": "preview",
+                "file": "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To do/24-03-19.md",
+                "file": "Guides/Setup/Simulators.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guides/Setup/Software.md",
+                "file": "Guides/ROS2 commands.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,9 +79,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2c576ad61d2f90f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To do/24-03-22.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To do/24-03-20.md",
+                "file": "Guides/ROS2 commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To do/24-03-20.md"
+                "file": "Guides/ROS2 commands.md"
               }
             }
           },
@@ -214,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "To do/24-03-20.md"
+                "file": "Guides/ROS2 commands.md"
               }
             }
           },
@@ -224,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To do/24-03-20.md",
+                "file": "Guides/ROS2 commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,16 +294,27 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7e42828bd611331a",
+  "active": "09466df0028333c4",
   "lastOpenFiles": [
-    "Tasks.md",
-    "Pocket Cube/MCU.md",
-    "To do/24-03-20.md",
-    "Pocket Cube",
-    "To do/24-03-19.md",
+    "Guides/Simulators/ROS2 Gym/Ros Gym.md",
     "Guides/Setup/Simulators.md",
     "Guides/Setup/Software.md",
-    "Guides/Simulators/Ros Gym.md",
+    "Guides/Simulators/ROS2 Gym",
+    "Guides/Simulators/Python Gym/Skeleton for simulation loop.md",
+    "To do/24-03-22.md",
+    "Tasks.md",
+    "To do/24-03-19.md",
+    "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
+    "Guides/GIT/git_Masters.desktop",
+    "Guides/GIT/autoGitCommands/pull_Masters.desktop",
+    "Guides/GIT/autoGitCommands/git_Masters.sh",
+    "Guides/GIT/autoGitCommands/pull_Masters.sh",
+    "Guides/GIT/autoGitCommands/Git.png",
+    "Guides/GIT/autoGitCommands",
+    "Guides/GIT",
+    "To do/24-03-20.md",
+    "Pocket Cube/MCU.md",
+    "Pocket Cube",
     "To do/24-03-18.md",
     "To do/24-03-13.md",
     "To do/24-03-14.md",
@@ -307,18 +331,7 @@
     "Calendar/Work/(Every F) Pocket Cube Meeting.md",
     "Calendar/Personal/2024-02-27 donate blood.md",
     "To do/24-03-7.md",
-    "Guides/Setup/create ros2 workspace.md",
-    "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
-    "Guides/Setup/Useful Latex Stuff.md",
-    "zzTemplates/Daily Template.md",
     "home/chris",
-    "home",
-    "Udemy Ros Course",
-    "Guides/Simulators",
-    "Demi/74HC_HCT32_4.pdf",
-    "Demi/74HC_HCT32_4.pdf.crdownload",
-    "Demi/74HC_HCT08_3.pdf",
-    "Demi/74HC_HCT08_3.pdf.crdownload",
     "Papers/Untitled Diagram.svg",
     "Untitled.canvas"
   ]

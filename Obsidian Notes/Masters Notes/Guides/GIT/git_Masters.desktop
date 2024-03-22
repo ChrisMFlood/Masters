@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Pull/Push Matsters Folder
+Exec=/home/chris/autoGitCommands/git_Masters.sh
+Icon=/home/chris/autoGitCommands/Git.png
