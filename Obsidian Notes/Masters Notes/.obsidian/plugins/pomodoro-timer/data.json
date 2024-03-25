@@ -11,7 +11,7 @@
   "logFocused": false,
   "logPath": "",
   "logLevel": "ALL",
-  "logTemplate": "<%*\nif(log.task.name==\"\"){\n  log.task.name =\"Work\"\n}\nif (log.mode == \"WORK\") {\n  if (!log.finished) {\n    tR = `- ${log.task.name} [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\n    \"HH:mm\"\n  )}]`;\n  } else {\n    tR = `- ${log.task.name} [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\n    \"HH:mm\"\n  )}]`;\n  }\n} else {\n  tR = `- Break  [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\n    \"HH:mm\"\n  )}]`;\n}\n%>",
+  "logTemplate": "<%*\nif(log.task.name==\"\"){\n  log.task.name = \"Work\"\n}\nif (log.mode == \"WORK\") {\n  if (!log.finished) {\n    tR = `- ${log.task.name} [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\n    \"HH:mm\"\n  )}]`;\n  } else {\n    tR = `- ${log.task.name} [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\n    \"HH:mm\"\n  )}]`;\n  }\n} else {\n  tR = `- Break  [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\n    \"HH:mm\"\n  )}]`;\n}\n%>",
   "logFormat": "CUSTOM",
   "useSystemNotification": false,
   "taskFormat": "DATAVIEW"

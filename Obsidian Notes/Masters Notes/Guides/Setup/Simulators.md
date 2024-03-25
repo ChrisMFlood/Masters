@@ -29,6 +29,7 @@ cd ..
 rosdep install -i --from-path src --rosdistro humble -y
 
 colcon build
+# `pip install setuptools==58.2.0`
 ```
 in a new terminal
 ```bash
@@ -59,7 +60,7 @@ In another terminal for keyboard control
 sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
 ```
 ```bash
-source /opt/ros/foxy/setup.bash
+source /opt/ros/humble/setup.bash
 source install/local_setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```

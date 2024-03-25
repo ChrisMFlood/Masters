@@ -95,7 +95,18 @@ sudo apt install terminator
 
 # Docker
 ```bash
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo apt remove docker-desktop
+sudo apt-get remove docker-compose-plugin
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+rm -r $HOME/.docker/desktop
+sudo rm /usr/local/bin/com.docker.cli
+sudo apt purge docker-desktop
+
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
+#################################
 
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -110,6 +121,21 @@ echo \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
+
+#################################
+
+# Docker Compose
+sudo apt install gnome-terminal
+sudo apt-get update
+cd Downloads
+sudo apt-get install ./docker-desktop-4.28.0-amd64.deb
+
+systemctl --user start docker-desktop
+
+docker compose version
+docker --version
+docker version
+#################################
 ```
 ## Docker Compose
 ```bash

@@ -1,18 +1,23 @@
 ```bash
 sudo apt update
 sudo apt upgrade
-
+#################################
+# Python
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-colcon-common-extensions
-
+#################################
+# Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -f
-
+#################################
+# VS code
 sudo apt update
+sudo apt upgrade
 sudo apt install code
-
+#################################
+# Latex
 sudo apt update
 sudo apt upgrade
 sudo apt install texlive-full
@@ -21,10 +26,14 @@ code --install-extension nickfode.latex-formatter
 code --install-extension lw-lonely.latex-table-helper
 code --install-extension mathematic.vscode-latex
 code --install-extension tecosaur.latex-utilities
-
+#################################
+# Terminator
 sudo apt install terminator
+#################################
+# Slack
 sudo snap install slack
-
+#################################
+# ROS2 (Humble)
 locale  # check for UTF-8
 
 sudo apt update && sudo apt install locales
@@ -50,6 +59,16 @@ sudo apt install ros-dev-tools
 sudo apt install python3-colcon-common-extensions
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+#################################
+# Docker
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo apt remove docker-desktop
+sudo apt-get remove docker-compose-plugin
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+rm -r $HOME/.docker/desktop
+sudo rm /usr/local/bin/com.docker.cli
+sudo apt purge docker-desktop
 
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
@@ -67,6 +86,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
+# Docker Compose
 sudo apt install gnome-terminal
 sudo apt-get update
 cd Downloads
@@ -77,16 +97,19 @@ systemctl --user start docker-desktop
 docker compose version
 docker --version
 docker version
-
+#################################
+# Notes Repo
 cd
 cd Desktop
 git clone https://github.com/ChrisMFlood/Masters.git
 cd
-
+#################################
+# Obsidian
+cd 
 cd Downloads
 snap install obsidian_1.5.8_amd64.snap --dangerous --classic
 cd
-
+#################################
 gedit ~/.bashrc
 ```
 
