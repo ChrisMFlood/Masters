@@ -25,7 +25,7 @@ sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
 ```bash
 source /opt/ros/humble/setup.bash
 source install/local_setup.bash
-...
+
 ```
 eg: use keyboard to control car
 ```bash
@@ -35,4 +35,29 @@ sudo docker exec -it f1tenth_gym_ros-sim-1 /bin/bash
 source /opt/ros/humble/setup.bash
 source install/local_setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+
+```
+driver:
+
+image: test_car
+
+build: ./
+
+volumes:
+
+- .:/sim_ws/src/test_car
+
+environment:
+
+- DISPLAY=novnc:0.0
+
+networks:
+
+- x11
+
+stdin_open: true
+
+tty: truell
 ```

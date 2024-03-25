@@ -15,6 +15,8 @@ add `setup.bash` to `~/.bashrc` script
 ```bash
 cd {worksapce}/src
 ros2 pkg create {package name} --build-type ament_python --dependencies rclpy
+cd ..
+colcon build
 ```
 `colcon build` to compile package `cd workspace`
 `colcon build --packages-select` to select packages to compile
