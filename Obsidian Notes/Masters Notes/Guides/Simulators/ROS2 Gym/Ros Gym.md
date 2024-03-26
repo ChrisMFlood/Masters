@@ -36,28 +36,12 @@ source /opt/ros/humble/setup.bash
 source install/local_setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-
-
-```
-driver:
-
-image: test_car
-
-build: ./
-
-volumes:
-
-- .:/sim_ws/src/test_car
-
-environment:
-
-- DISPLAY=novnc:0.0
-
-networks:
-
-- x11
-
-stdin_open: true
-
-tty: truell
+## Run without docker
+terminal 1:
+```bash
+cd $HOME/sim_ws
+source /opt/ros/humble/setup.bash
+source install/local_setup.bash
+colcon build
+ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
