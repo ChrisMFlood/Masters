@@ -144,6 +144,10 @@ self.get_logger().info('Received response: '+str(self.response.sum))
 ```
 
 # Interfaces
+```bash
+ros2 interface show <pkg/msg/name>
+```
+show interface definitions
 ## Create Interfaces
 ```bash
 cd {worksapce}/src
@@ -152,6 +156,7 @@ cd {package name}
 rm -r include/
 rm -d src/
 mkdir msg
+mkdr
 ```
 In package.xml:
 ```html 
@@ -168,10 +173,10 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/HardwareStatus"
 )
-ament_export_dependencies(rosidl_defualt_runtime) 
+ament_export_dependencies(rosidl_default_runtime) 
 # just before ament_package()
 ```
-Package name must start with witch capital and no dash or underscore + no msg
+Package name must start with with capital and no dash or underscore + no msg
 
 
 

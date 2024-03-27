@@ -1,4 +1,10 @@
 ```bash
+# Notes Repo
+cd
+cd Desktop
+git clone https://github.com/ChrisMFlood/Masters.git
+cd
+#################################
 sudo apt update
 sudo apt upgrade
 #################################
@@ -97,12 +103,6 @@ systemctl --user start docker-desktop
 docker compose version
 docker --version
 docker version
-#################################
-# Notes Repo
-cd
-cd Desktop
-git clone https://github.com/ChrisMFlood/Masters.git
-cd
 #################################
 # Obsidian
 cd 

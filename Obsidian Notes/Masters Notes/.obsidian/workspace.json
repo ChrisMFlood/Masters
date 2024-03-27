@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "Guides/Setup/Computer Setup (Install All Software and Simulators).md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tasks.md"
+                "file": "Guides/Setup/Computer Setup (Install All Software and Simulators).md"
               }
             }
           },
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks.md",
+                "file": "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,14 +257,18 @@
   },
   "active": "ee172ba2ee6aca02",
   "lastOpenFiles": [
-    "To do/24-03-26.md",
+    "Guides/Setup/Software.md",
+    "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
+    "To do/24-03-27.md",
     "Guides/Code/ROS2 commands.md",
+    "To do/24-01-25.md",
+    "Tasks.md",
+    "To do/24-03-26.md",
     "Guides/Simulators/ROS2 Gym/Ros Gym.md",
     "Guides/Setup/Simulators.md",
     "F1 tenth course/1 Introduction to Autonomous Driving- Perception, Planning Control.md",
     "F1 tenth course/7 Filtering.md",
     "Pocket Cube/MCU.md",
-    "Tasks.md",
     "Calendar/Work/2024-03-28 Invigilate .md",
     "To do/24-03-25.md",
     "Guides/Code/Python test.md",
@@ -272,9 +276,7 @@
     "To do/24-03-22.md",
     "To do/24-03-19.md",
     "Untitled.md",
-    "Guides/Setup/Software.md",
     "Guides/Setup/create ros2 workspace.md",
-    "Guides/Setup/Computer Setup (Install All Software and Simulators).md",
     "Guides/Simulators/Python Gym/Skeleton for simulation loop.md",
     "Guides/Simulators/ROS2 Gym",
     "Guides/GIT/git_Masters.desktop",
@@ -290,8 +292,6 @@
     "To do/24-03-13.md",
     "To do/24-03-14.md",
     "zzTemplates/Task Calendar log.md",
-    "Calendar/Work/2024-03-20 Rhyn Demi.md",
-    "Calendar/Holidays/2024-04-01 Family Day.md",
     "Calendar/Holidays",
     "home/chris",
     "Papers/Untitled Diagram.svg",

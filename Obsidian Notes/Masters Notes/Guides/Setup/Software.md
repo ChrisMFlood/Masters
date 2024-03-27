@@ -13,6 +13,7 @@ sudo dpkg -i vscode.deb
 or
 ```bash
 sudo apt update
+sudo apt upgrade
 sudo apt install code
 ```
 
