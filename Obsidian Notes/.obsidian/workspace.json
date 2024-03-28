@@ -35,8 +35,12 @@
             "id": "2662da43d792ecf8",
             "type": "leaf",
             "state": {
-              "type": "full-calendar-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Tasks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -142,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/To do/24-03-28.md",
+                "file": "Masters Notes/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/To do/24-03-28.md",
+                "file": "Masters Notes/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/To do/24-03-28.md"
+                "file": "Masters Notes/Tasks.md"
               }
             }
           },
@@ -233,8 +237,9 @@
   },
   "active": "2662da43d792ecf8",
   "lastOpenFiles": [
-    "Masters Notes/To do/24-03-20.md",
+    "Masters Notes/Calendar/Personal/2024-03-29 Flight to Joburg.md",
     "Masters Notes/To do/24-03-28.md",
+    "Masters Notes/To do/24-03-20.md",
     "Masters Notes/Meeting Minutes/2024-W11.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym",
@@ -268,7 +273,6 @@
     "Masters Notes/To do/24-02-18.md",
     "Masters Notes/To do/24-02-17.md",
     "Masters Notes/To do/24-02-16.md",
-    "Masters Notes/To do/24-02-15.md",
     "Masters Notes/Setup Computer"
   ]
 }
