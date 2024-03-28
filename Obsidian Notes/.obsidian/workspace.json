@@ -57,14 +57,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/Pocket Cube/MCU.md",
+                "file": "Masters Notes/Meeting Minutes/2024-W13.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1310c4b8e61a9e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Meeting Minutes/2024-W11.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -114,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0da5b1d6d9550ba2",
@@ -131,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/Pocket Cube/MCU.md",
+                "file": "Masters Notes/Meeting Minutes/2024-W11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/Pocket Cube/MCU.md",
+                "file": "Masters Notes/Meeting Minutes/2024-W11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/Pocket Cube/MCU.md"
+                "file": "Masters Notes/Meeting Minutes/2024-W11.md"
               }
             }
           },
@@ -220,14 +231,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "600811c2ea14bc12",
+  "active": "1310c4b8e61a9e14",
   "lastOpenFiles": [
+    "Masters Notes/Tasks.md",
+    "Masters Notes/To do/24-03-28.md",
+    "Masters Notes/Meeting Minutes/2024-W13.md",
+    "Masters Notes/Pocket Cube/MCU.md",
     "Masters Notes/Calendar/Holidays/2024-04-01 Family Day.md",
     "Masters Notes/Calendar/Holidays/2024-03-21 Human Rights Day.md",
     "Masters Notes/Calendar/Holidays",
     "Masters Notes/To do/24-03-14.md",
     "Masters Notes/Meeting Minutes/2024-W11.md",
-    "Masters Notes/Tasks.md",
     "Masters Notes/Questions.md",
     "Masters Notes/Calendar/(Every F) Demi.md",
     "Masters Notes/Calendar/(Every R) Masters Meeting.md",
@@ -246,9 +260,6 @@
     "Masters Notes/To do/24-02-14.md",
     "Masters Notes/Research Notes/Vehicle dynamics state estimation and localization for high performance race cars.md",
     "Masters Notes/Research Notes/Autonomous Vehicles on the Edge A Survey on Autonomous Vehicle Racing.md",
-    "Masters Notes/Research Notes/A novel obstacle avoidance algorithm ‘‘Follow the Gap Method’’.md",
-    "Masters Notes/TUM.md",
-    "Satellite Meeting.md",
     "Masters Notes/Setup Computer"
   ]
 }
