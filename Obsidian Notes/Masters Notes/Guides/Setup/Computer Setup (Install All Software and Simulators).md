@@ -3,6 +3,9 @@
 echo "###########################################################################################################################################################"
 echo "git"
 sudo apt install git
+#################################
+echo "###########################################################################################################################################################"
+
 echo "snap"
 sudo apt update
 sudo apt upgrade
@@ -27,6 +30,9 @@ echo "Python"
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-colcon-common-extensions
+#################################
+echo "###########################################################################################################################################################"
+
 echo "Google Chrome"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -38,6 +44,15 @@ echo "VS code"
 sudo apt update
 sudo apt upgrade
 sudo snap install code
+code --install-extension ms-python.python
+code --install-extension esbenp.prettier-vscode
+code --install-extension mhutchie.git-graph
+code --install-extension znck.grammarly
+code --install-extension ms-iot.vscode-ros
+code --install-extension ms-vscode.live-server
+code --install-extension mechatroner.rainbow-csv
+code --install-extension janisdd.vscode-edit-csv
+code --install-extension donjayamanne.python-extension-pack
 #################################
 echo "###########################################################################################################################################################"
 
