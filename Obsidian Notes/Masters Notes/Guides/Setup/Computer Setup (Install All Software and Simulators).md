@@ -1,29 +1,47 @@
 ```bash
-# Notes Repo
+#################################
+echo "###########################################################################################################################################################"
+echo "git"
+sudo apt install git
+echo "snap"
+sudo apt update
+sudo apt upgrade
+sudo apt install snapd
+#################################
+echo "###########################################################################################################################################################"
+
+echo "Notes Repo"
 cd
 cd Desktop
 git clone https://github.com/ChrisMFlood/Masters.git
 cd
 #################################
-sudo apt update
-sudo apt upgrade
+echo "###########################################################################################################################################################"
+
+echo "Gedit"
+sudo apt install gedit
 #################################
-# Python
+echo "###########################################################################################################################################################"
+
+echo "Python"
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-colcon-common-extensions
-#################################
-# Google Chrome
+echo "Google Chrome"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt install -f
 #################################
-# VS code
+echo "###########################################################################################################################################################"
+
+echo "VS code"
 sudo apt update
 sudo apt upgrade
-sudo apt install code
+sudo snap install code
 #################################
-# Latex
+echo "###########################################################################################################################################################"
+
+echo "Latex"
 sudo apt update
 sudo apt upgrade
 sudo apt install texlive-full
@@ -33,30 +51,30 @@ code --install-extension lw-lonely.latex-table-helper
 code --install-extension mathematic.vscode-latex
 code --install-extension tecosaur.latex-utilities
 #################################
-# Terminator
+echo "###########################################################################################################################################################"
+
+echo "Terminator"
 sudo apt install terminator
 #################################
-# Slack
+echo "###########################################################################################################################################################"
+
+echo "Slack"
 sudo snap install slack
 #################################
-# ROS2 (Humble)
-locale  # check for UTF-8
+echo "###########################################################################################################################################################"
 
+echo "ROS2 (Humble)"
+locale  # check for UTF-8
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
-
 locale  # verify settings
-
 sudo apt install software-properties-common
 sudo add-apt-repository universe
-
 sudo apt update && sudo apt install curl -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
-
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
-
 sudo apt update
 sudo apt upgrade
 sudo apt install ros-humble-desktop
@@ -66,7 +84,9 @@ sudo apt install python3-colcon-common-extensions
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 #################################
-# Docker
+echo "###########################################################################################################################################################"
+
+echo "Docker"
 sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
 sudo apt remove docker-desktop
 sudo apt-get remove docker-compose-plugin
@@ -75,42 +95,38 @@ sudo rm -rf /var/lib/containerd
 rm -r $HOME/.docker/desktop
 sudo rm /usr/local/bin/com.docker.cli
 sudo apt purge docker-desktop
-
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
-
-# Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
+echo "###########################################################################################################################################################"
 
-# Docker Compose
+echo "Docker Compose"
 sudo apt install gnome-terminal
 sudo apt-get update
 cd Downloads
 sudo apt-get install ./docker-desktop-4.28.0-amd64.deb
-
 systemctl --user start docker-desktop
-
 docker compose version
 docker --version
 docker version
 #################################
-# Obsidian
+echo "###########################################################################################################################################################"
+
+echo "Obsidian"
 cd 
 cd Downloads
-snap install obsidian_1.5.8_amd64.snap --dangerous --classic
+snap install obsidian_1.5.11_amd64.snap --dangerous --classic
 cd
 #################################
+echo "###########################################################################################################################################################"
+
 gedit ~/.bashrc
+
 ```
 
 ```bash
