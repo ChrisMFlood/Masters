@@ -1,35 +1,53 @@
-#!/bin/bash
+@echo off
+cd "C:\Users\chris\OneDrive\Desktop\Masters"
 
-cd /home/chris/Desktop/Masters
+echo "Do you want to push(a) or pull(b)?"
+set /p choice=
 
-git add .
-git status
+IF /I "%choice%"=="a" (
+    git add .
+    git status
 
-prompt() {
-    read -p "Do you want to add and check status again? (y/n): " add_status
-    if [ "$add_status" == "y" ]; then
+    :prompt1
+    echo "Do you want to add and check status again? (y/n)"
+    set /p add_status=
+    IF /I "%add_status%"=="y" (
         git add .
         git status
-        prompt
-    fi
-}
+        GOTO prompt1
+    )
 
-prompt
+    git commit -m "laptop %DATE% %TIME%"
+    git push origin master
+)
 
-commitmsg=$(date)
-git commit -m "$commitmsg"
-git push origin master
-echo "Commit complete"
+IF /I "%choice%"=="b" (
+    git pull
+    echo "Do you want to push? (y/n)"
+    set /p choice2=
 
-promptP() {
-    read -p "Do you want to pull main? (y/n): " pull_status
-    if [ "$pull_status" == "y" ]; then
-        git pull
-        echo "Pull complete"
-    fi
-}
+    IF /I "%choice2%"=="y" (
+        git add .
+        git status
 
-promptP
+        :prompt2
+        echo "Do you want to add and check status again? (y/n)"
+        set /p add_status=
+        IF /I "%add_status%"=="y" (
+            git add .
+            git status
+            GOTO prompt2
+        )
 
-echo "Complete"
-echo "Good Bye"
+        git commit -m "laptop %DATE% %TIME%"
+        git push origin master
+    )
+)
+
+echo "Are you complete?"
+set /p complete=
+IF /I "%complete%"=="n" (
+    echo "Please complete your tasks."
+) ELSE (
+    echo "Thank you. Have a nice day."
+)
