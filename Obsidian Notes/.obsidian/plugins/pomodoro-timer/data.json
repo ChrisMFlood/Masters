@@ -1,0 +1,18 @@
+{
+  "workLen": 9999,
+  "breakLen": 9999,
+  "autostart": true,
+  "useStatusBarTimer": true,
+  "notificationSound": true,
+  "customSound": "",
+  "showTaskProgress": true,
+  "enableTaskTracking": true,
+  "logFile": "DAILY",
+  "logFocused": false,
+  "logPath": "",
+  "logLevel": "ALL",
+  "logTemplate": "<%*\nif(log.task.name==\"\"){\nlog.task.name=\"Work\"\n}\nif (log.mode == \"WORK\") {\n  if (!log.finished) {\n    tR = `- ${log.task.name} (time: ${log.duration} min) [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\"HH:mm\")}]`;\n  } else {\n\ttR = `- ${log.task.name} (time: ${log.duration} min) [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\"HH:mm\")}]`;\n  }\n} else {\n  tR = `- Break (time: ${log.duration} min) [startTime:: ${log.begin.format(\"HH:mm\")}] [endTime:: ${log.end.format(\"HH:mm\")}]`;\n}\n%>",
+  "logFormat": "CUSTOM",
+  "useSystemNotification": true,
+  "taskFormat": "DATAVIEW"
+}
