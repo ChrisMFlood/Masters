@@ -76,3 +76,6 @@ For any new terminal re activate the venv before trying to use it.
 cd sim_ws/src/f1tenth_gym_ros/
 sudo docker build -t f1tenth_gym_ros -f Dockerfile .
 ```
+```
+sudo rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros
+```
