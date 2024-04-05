@@ -9,5 +9,8 @@
   "quick-latex",
   "obsidian-reminder-plugin",
   "obsidian-tasks-plugin",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "pomodoro-timer",
+  "templater-obsidian",
+  "obsidian-rollover-daily-todos"
 ]

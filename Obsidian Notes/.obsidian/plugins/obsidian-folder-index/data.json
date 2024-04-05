@@ -1,0 +1,23 @@
+{
+  "disableHeadlines": false,
+  "graphOverwrite": false,
+  "rootIndexFile": "Dashboard.md",
+  "autoCreateIndexFile": false,
+  "autoRenameIndexFile": true,
+  "includeFileContent": false,
+  "hideIndexFiles": false,
+  "indexFileInitText": "---\ntags: MOCs\n---\n```folder-index-content\n```",
+  "autoPreviewMode": false,
+  "sortIndexFilesAlphabetically": true,
+  "sortHeadersAlphabetically": true,
+  "recursiveIndexFiles": false,
+  "renderFolderBold": true,
+  "renderFolderItalic": false,
+  "useBulletPoints": true,
+  "excludeFolders": [
+    "To Do",
+    ""
+  ],
+  "recursionLimit": -1,
+  "headlineLimit": 6
+}
