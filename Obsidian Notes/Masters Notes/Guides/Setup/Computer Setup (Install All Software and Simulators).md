@@ -53,6 +53,7 @@ code --install-extension ms-vscode.live-server
 code --install-extension mechatroner.rainbow-csv
 code --install-extension janisdd.vscode-edit-csv
 code --install-extension donjayamanne.python-extension-pack
+code --install-extension twxs.cmake
 #################################
 echo "###########################################################################################################################################################"
 
