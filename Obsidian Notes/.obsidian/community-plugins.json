@@ -12,5 +12,11 @@
   "obsidian-zotero-desktop-connector",
   "pomodoro-timer",
   "templater-obsidian",
+<<<<<<< HEAD
   "obsidian-rollover-daily-todos"
+=======
+  "obsidian-rollover-daily-todos",
+  "execute-code",
+  "python-lab-plugin"
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
 ]

@@ -53,6 +53,12 @@ code --install-extension ms-vscode.live-server
 code --install-extension mechatroner.rainbow-csv
 code --install-extension janisdd.vscode-edit-csv
 code --install-extension donjayamanne.python-extension-pack
+<<<<<<< HEAD
+=======
+code --install-extension twxs.cmake
+code --install-extension nonanonno.vscode-ros2
+code --install-extension JaehyunShim.vscode-ros2
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
 #################################
 echo "###########################################################################################################################################################"
 

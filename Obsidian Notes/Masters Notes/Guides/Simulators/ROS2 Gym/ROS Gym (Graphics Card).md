@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# Install
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
 ```
 git clone https://github.com/f1tenth/f1tenth_gym
 cd f1tenth_gym && pip3 install -e .
@@ -71,11 +75,50 @@ For any new terminal re activate the venv before trying to use it.
 ```
 . ~/rocker_venv/bin/activate
 ```
+<<<<<<< HEAD
 
 ```
+=======
+# Start simulator
+```
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+. ~/rocker_venv/bin/activate
+```
+
+```
+cd 
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
 cd sim_ws/src/f1tenth_gym_ros/
 sudo docker build -t f1tenth_gym_ros -f Dockerfile .
 ```
 ```
 sudo rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros
+<<<<<<< HEAD
 ```
+=======
+```
+In container:
+```
+source /opt/ros/humble/setup.bash
+source install/local_setup.bash
+ros2 launch f1tenth_gym_ros gym_bridge_launch.py
+```
+## New Node:
+```
+. ~/rocker_venv/bin/activate
+sudo rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros
+```
+In container:
+```
+source /opt/ros/humble/setup.bash
+source install/local_setup.bash
+```
+## Keyboard Control:
+```
+source /opt/ros/humble/setup.bash
+source install/local_setup.bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+## Make new agent:
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
