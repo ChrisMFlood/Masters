@@ -54,6 +54,8 @@ code --install-extension mechatroner.rainbow-csv
 code --install-extension janisdd.vscode-edit-csv
 code --install-extension donjayamanne.python-extension-pack
 code --install-extension twxs.cmake
+code --install-extension nonanonno.vscode-ros2
+code --install-extension JaehyunShim.vscode-ros2
 #################################
 echo "###########################################################################################################################################################"
 

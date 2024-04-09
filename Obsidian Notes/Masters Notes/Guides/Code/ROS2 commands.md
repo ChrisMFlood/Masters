@@ -156,7 +156,7 @@ cd {package name}
 rm -r include/
 rm -d src/
 mkdir msg
-mkdr
+mkdir srv
 ```
 In package.xml:
 ```html 
@@ -171,8 +171,9 @@ find_package(rosidl_default_generators REQUIRED)
 ```
 ```cpp
 rosidl_generate_interfaces(${PROJECT_NAME}
-	"msg/HardwareStatus"
+	"msg/HardwareStatus.msg"
 )
+
 ament_export_dependencies(rosidl_default_runtime) 
 # just before ament_package()
 ```

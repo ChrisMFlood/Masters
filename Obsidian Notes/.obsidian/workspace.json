@@ -33,14 +33,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/To do/24-04-05.md",
+                "file": "Masters Notes/To do/24-04-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "957db87e8a44237b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/To do/24-04-08.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0da5b1d6d9550ba2",
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/To do/24-04-05.md",
+                "file": "Masters Notes/To do/24-04-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/To do/24-04-05.md",
+                "file": "Masters Notes/To do/24-04-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/To do/24-04-05.md"
+                "file": "Masters Notes/To do/24-04-08.md"
               }
             }
           },
@@ -204,14 +217,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9eb467a381e833c0",
+  "active": "965a0630052e48f2",
   "lastOpenFiles": [
+    "Masters Notes/Guides/Code/Python test.md",
+    "Masters Notes/Guides/Code/test_code.py",
     "Masters Notes/Guides/Code/ROS2 commands.md",
-    "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
-    "Masters Notes/Guides/Setup/create ros2 workspace.md",
     "Masters Notes/Guides/Setup/Computer Setup (Install All Software and Simulators).md",
-    "Masters Notes/Guides/Setup/Software.md",
+    "Masters Notes/Guides/Setup/create ros2 workspace.md",
+    "Masters Notes/To do/24-04-08.md",
     "Masters Notes/To do/24-04-05.md",
+    "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
+    "Masters Notes/Guides/Setup/Software.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym (No GPU).md",
     "Masters Notes/To do/24-04-04.md",
     "Masters Notes/Guides/Setup/Simulators.md",
@@ -233,15 +249,12 @@
     "Masters Notes/Papers/Papers_Glossary.md",
     "Masters Notes/Papers/_Index_of_Papers.md",
     "_Index_of_Obsidian Notes.md",
-    "Masters Notes/zzTemplates/_Index_of_zzTemplates.md",
-    "Masters Notes/To do/_Index_of_To do.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym",
     "Masters Notes/Guides/Simulators/Python Gym",
     "Masters Notes/Guides/GIT/autoGitCommands/pull_Masters.sh",
     "Masters Notes/Guides/GIT/autoGitCommands/pull_Masters.desktop",
     "Masters Notes/Guides/GIT/autoGitCommands/git_Masters.sh",
     "Masters Notes/Guides/GIT/autoGitCommands/Git.png",
-    "Masters Notes/Guides/GIT/git_Masters.desktop",
-    "Masters Notes/Guides/GIT/autoGitCommands"
+    "Masters Notes/Guides/GIT/git_Masters.desktop"
   ]
 }
