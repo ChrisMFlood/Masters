@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"id": "zoottelkeeper-obsidian-plugin",
 	"name": "Zoottelkeeper Plugin",
@@ -8,3 +9,15 @@
 	"authorUrl": "https://github.com/akosbalasko, https://github.com/michabrugger",
 	"isDesktopOnly": false
 }
+=======
+{
+	"id": "zoottelkeeper-obsidian-plugin",
+	"name": "Zoottelkeeper Plugin",
+	"version": "0.18.0",
+	"minAppVersion": "0.12.1",
+	"description": "This plugin automatically creates, maintains and tags MOCs for all your folders.",
+	"author": "Akos Balasko, Micha Brugger",
+	"authorUrl": "https://github.com/akosbalasko, https://github.com/michabrugger",
+	"isDesktopOnly": false
+}
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943

@@ -45,7 +45,59 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
+                "file": "Masters Notes/Guides/Setup/Useful Latex Stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3cb9c0fbdcd5bb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Pocket Cube/SD vs EEPROM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85d694b6aa9e3423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "600811c2ea14bc12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/Meeting Minutes/2024-W13.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1310c4b8e61a9e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters Notes/To do/24-03-28.md",
+=======
                 "file": "Masters Notes/To do/24-04-08.md",
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +182,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+                "file": "Masters Notes/Pocket Cube/SD vs EEPROM.md",
+=======
                 "file": "Masters Notes/To do/24-04-09.md",
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +203,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+                "file": "Masters Notes/Pocket Cube/SD vs EEPROM.md",
+=======
                 "file": "Masters Notes/To do/24-04-09.md",
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +230,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
+                "file": "Masters Notes/Pocket Cube/SD vs EEPROM.md"
+=======
                 "file": "Masters Notes/To do/24-04-09.md"
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
               }
             }
           },
@@ -215,6 +279,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pomodoro-timer:Toggle timer panel": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -228,6 +294,17 @@
       "periodic-notes:Open this week": false
     }
   },
+<<<<<<< HEAD
+  "active": "d3cb9c0fbdcd5bb4",
+  "lastOpenFiles": [
+    "Masters Notes/Pocket Cube/SD vs EEPROM.md",
+    "Masters Notes/Tasks.md",
+    "Masters Notes/Calendar/Personal/2024-03-29 Flight to Joburg.md",
+    "Masters Notes/To do/24-03-28.md",
+    "Masters Notes/To do/24-03-20.md",
+    "Masters Notes/Meeting Minutes/2024-W11.md",
+    "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym.md",
+=======
   "floating": {
     "id": "3a3b7f448b12f9a4",
     "type": "floating",
@@ -295,11 +372,39 @@
     "Masters Notes/Papers/Papers_GlossaryIndex.md",
     "Masters Notes/Papers/Papers_Index.md",
     "Masters Notes/Papers/Papers_Glossary.md",
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
     "Masters Notes/Guides/Simulators/ROS2 Gym",
     "Masters Notes/Guides/Simulators/Python Gym",
     "Masters Notes/Guides/GIT/autoGitCommands/pull_Masters.sh",
     "Masters Notes/Guides/GIT/autoGitCommands/pull_Masters.desktop",
     "Masters Notes/Guides/GIT/autoGitCommands/git_Masters.sh",
-    "Masters Notes/Guides/GIT/autoGitCommands/Git.png"
+    "Masters Notes/Guides/GIT/autoGitCommands/Git.png",
+<<<<<<< HEAD
+    "Masters Notes/Guides/GIT/git_Masters.desktop",
+    "Masters Notes/Guides/GIT/autoGitCommands",
+    "Masters Notes/Guides/GIT",
+    "Masters Notes/Meeting Minutes/2024-W13.md",
+    "Masters Notes/Pocket Cube/MCU.md",
+    "Masters Notes/Calendar/Holidays/2024-04-01 Family Day.md",
+    "Masters Notes/Calendar/Holidays/2024-03-21 Human Rights Day.md",
+    "Masters Notes/Calendar/Holidays",
+    "Masters Notes/To do/24-03-14.md",
+    "Masters Notes/Questions.md",
+    "Masters Notes/Calendar/(Every F) Demi.md",
+    "Masters Notes/Calendar/(Every R) Masters Meeting.md",
+    "Masters Notes/Calendar/2024-02-23 Pub lunch.md",
+    "Masters Notes/Meeting Minutes/2024-W07.md",
+    "Masters Notes/Meeting Minutes/2024-W08.md",
+    "Masters Notes/To do/24-02-23.md",
+    "Masters Notes/To do/24-02-22.md",
+    "Masters Notes/To do/24-02-21.md",
+    "Masters Notes/To do/24-02-20.md",
+    "Masters Notes/To do/24-02-19.md",
+    "Masters Notes/To do/24-02-18.md",
+    "Masters Notes/To do/24-02-17.md",
+    "Masters Notes/Setup Computer"
+=======
+    "Masters Notes/Guides/GIT/git_Masters.desktop"
+>>>>>>> 43cf64042ed7a1b78fd2c3a192a03a7d55104943
   ]
 }
