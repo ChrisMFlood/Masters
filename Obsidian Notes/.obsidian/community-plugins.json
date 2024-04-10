@@ -1,1 +1,13 @@
-[]
+[
+  "obsidian-zotero-desktop-connector",
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "obsidian-reminder-plugin",
+  "quick-latex",
+  "pomodoro-timer",
+  "periodic-notes",
+  "obsidian-full-calendar",
+  "dataview",
+  "obsidian-annotator",
+  "obsidian-rollover-daily-todos"
+]
