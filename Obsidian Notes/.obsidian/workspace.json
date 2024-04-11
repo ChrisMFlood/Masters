@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "14a9699098ba525f",
@@ -159,7 +159,7 @@
             }
           },
           {
-            "id": "80f9f8198b5b18b4",
+            "id": "2d2553ae034e0ef8",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -171,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,11 +189,16 @@
   },
   "active": "72dbf5db614a52bb",
   "lastOpenFiles": [
+    "Masters Notes/Guides/Code/ROS2 commands.md",
+    "Masters Notes/Meeting Minutes/2024-W15.md",
+    "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym (No GPU).md",
+    "Masters Notes/Guides/Setup/Software.md",
+    "Masters Notes/Guides/Setup/Simulators.md",
+    "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
+    "Masters Notes/To do/24-04-11.md",
     "Masters Notes/To do/24-04-10.md",
     "Masters Notes/To do/24-04-09.md",
-    "Masters Notes/To do/24-04-11.md",
     "Masters Notes/Pocket Cube/IMU.md",
-    "Masters Notes/Pocket Cube/SD vs EEPROM.md",
-    "Masters Notes/Meeting Minutes/2024-W15.md"
+    "Masters Notes/Pocket Cube/SD vs EEPROM.md"
   ]
 }

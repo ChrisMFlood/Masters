@@ -4,6 +4,7 @@ Run  [[Computer Setup (Install All Software and Simulators)]] to install everyth
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-colcon-common-extensions
+sudo apt-get install python3-rosdep
 ```
 # VS code
 ```bash
@@ -59,12 +60,19 @@ sudo apt install ros-dev-tools
 
 sudo apt install python3-colcon-common-extensions
 
+sudo apt install ros-humble-nav2*
+
+sudo apt update
+
+sudo apt install ~nros-humble-rqt*
+
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc
+echo "export ROS_LOCALHOST_ONLY=1" >> ~/.bashrc
+
+
 gedit ~/.bashrc
-```
-add the following to the end of the `~/.bashrc` script:
-```bash
-source /opt/ros/humble/setup.bash
-source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
 [[ROS2 commands]] 
 
