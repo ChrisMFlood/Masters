@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/To do/24-04-11.md",
+                "file": "Masters Notes/To do/24-04-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/To do/24-04-11.md",
+                "file": "Masters Notes/To do/24-04-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/To do/24-04-11.md",
+                "file": "Masters Notes/To do/24-04-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/To do/24-04-11.md"
+                "file": "Masters Notes/To do/24-04-15.md"
               }
             }
           },
@@ -183,19 +183,26 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "pomodoro-timer:Toggle timer panel": false,
-      "periodic-notes:Open this week": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "72dbf5db614a52bb",
+  "active": "525d770c1e979937",
   "lastOpenFiles": [
+    "Masters Notes/Papers/ForzaETH.pdf",
+    "Masters Notes/Papers/ForzaETH.pdf.crdownload",
+    "Masters Notes/Papers/Assessing the Robustness of LiDAR",
+    "Masters Notes/Papers/Unconfirmed 949103.crdownload",
+    "Masters Notes/Papers/Localization_Techniques.pdf",
+    "Masters Notes/Papers/Localization_Techniques.pdf.crdownload",
+    "Masters Notes/To do/24-04-11.md",
+    "Masters Notes/To do/24-04-15.md",
     "Masters Notes/Guides/Code/ROS2 commands.md",
     "Masters Notes/Meeting Minutes/2024-W15.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym (No GPU).md",
     "Masters Notes/Guides/Setup/Software.md",
     "Masters Notes/Guides/Setup/Simulators.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
-    "Masters Notes/To do/24-04-11.md",
     "Masters Notes/To do/24-04-10.md",
     "Masters Notes/To do/24-04-09.md",
     "Masters Notes/Pocket Cube/IMU.md",
