@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/To do/24-04-15.md",
+                "file": "Masters Notes/Meeting Minutes/2024-W16.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/To do/24-04-15.md",
+                "file": "Masters Notes/Meeting Minutes/2024-W16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/To do/24-04-15.md",
+                "file": "Masters Notes/Meeting Minutes/2024-W16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/To do/24-04-15.md"
+                "file": "Masters Notes/Meeting Minutes/2024-W16.md"
               }
             }
           },
@@ -187,14 +187,23 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "525d770c1e979937",
+  "active": "72dbf5db614a52bb",
   "lastOpenFiles": [
-    "Masters Notes/Papers/ForzaETH.pdf",
-    "Masters Notes/Papers/ForzaETH.pdf.crdownload",
-    "Masters Notes/Papers/Assessing the Robustness of LiDAR",
-    "Masters Notes/Papers/Unconfirmed 949103.crdownload",
-    "Masters Notes/Papers/Localization_Techniques.pdf",
-    "Masters Notes/Papers/Localization_Techniques.pdf.crdownload",
+    "Masters Notes/Papers/eth zurich full stack.pdf",
+    "Masters Notes/Papers/eth zurich full stack.pdf.crdownload",
+    "Masters Notes/Papers/ESE_615_Final_Report_by_Team_1.pdf",
+    "Masters Notes/Papers/ESE_615_Final_Report_by_Team_1.pdf.crdownload",
+    "Masters Notes/Papers/F3-DP-2017-Vajnar-Martin-Thesis.pdf",
+    "Masters Notes/Papers/F3-DP-2017-Vajnar-Martin-Thesis.pdf.crdownload",
+    "Masters Notes/Papers/Model car.pdf",
+    "Masters Notes/Papers/Model car.pdf.crdownload",
+    "Masters Notes/Papers/F3-DP-2017-Kerner-Jiri-software_testing_for_embedded_applications_in_autonomous_vehicles.pdf",
+    "Masters Notes/Papers/F3-DP-2017-Kerner-Jiri-software_testing_for_embedded_applications_in_autonomous_vehicles.pdf.crdownload",
+    "Masters Notes/Tasks.md",
+    "Masters Notes/Meeting Minutes/2024-W16.md",
+    "Masters Notes/Papers/DM_NunoGuedes_2019_MEEC.pdf",
+    "Masters Notes/To do/24-04-16.md",
+    "Masters Notes/To do/24-04-10.md",
     "Masters Notes/To do/24-04-11.md",
     "Masters Notes/To do/24-04-15.md",
     "Masters Notes/Guides/Code/ROS2 commands.md",
@@ -203,7 +212,6 @@
     "Masters Notes/Guides/Setup/Software.md",
     "Masters Notes/Guides/Setup/Simulators.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
-    "Masters Notes/To do/24-04-10.md",
     "Masters Notes/To do/24-04-09.md",
     "Masters Notes/Pocket Cube/IMU.md",
     "Masters Notes/Pocket Cube/SD vs EEPROM.md"
