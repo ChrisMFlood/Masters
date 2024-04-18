@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "3dd4d7de9890a43c",
+            "id": "887c9f43b046dc28",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,16 +48,6 @@
                 "file": "Masters Notes/To do/24-04-18.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3a5da0ef958ea963",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Masters Notes/Papers/UnifyingF1TenthRacing.pdf"
               }
             }
           }
@@ -112,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14a9699098ba525f",
@@ -182,7 +171,7 @@
             }
           },
           {
-            "id": "2d2553ae034e0ef8",
+            "id": "43b60f4cc9aa12f2",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -210,24 +199,23 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3dd4d7de9890a43c",
+  "active": "887c9f43b046dc28",
   "lastOpenFiles": [
-    "Masters Notes/Papers/eth zurich full stack.pdf",
-    "Masters Notes/Papers/UnifyingF1TenthRacing.pdf",
-    "Masters Notes/Papers/ESE_615_Final_Report_by_Team_1.pdf",
-    "Masters Notes/Papers/DM_NunoGuedes_2019_MEEC.pdf",
-    "Masters Notes/Papers/Autonomous_Vehicles_on_the_Edge_A_Survey_on_Autonomous_Vehicle_Racing.pdf",
-    "Masters Notes/Papers/Autonomous racing vehicle - 2020 - Culley Garlick gil-Esteller Georviev Fursa vander-Sluis Ball Bradley.pdf",
-    "Masters Notes/Meeting Minutes/2024-W16.md",
+    "Masters Notes/To do/24-04-16.md",
     "Masters Notes/To do/24-04-18.md",
+    "Masters Notes/Meeting Minutes/2024-W16.md",
     "Masters Notes/Calendar/Personal/2024-04-19 Flight to joburg.md",
+    "Masters Notes/Papers/eth zurich full stack.pdf",
     "Masters Notes/Papers/eth zurich full stack.pdf.crdownload",
+    "Masters Notes/Papers/ESE_615_Final_Report_by_Team_1.pdf",
     "Masters Notes/Papers/ESE_615_Final_Report_by_Team_1.pdf.crdownload",
     "Masters Notes/Papers/F3-DP-2017-Vajnar-Martin-Thesis.pdf",
     "Masters Notes/Papers/F3-DP-2017-Vajnar-Martin-Thesis.pdf.crdownload",
     "Masters Notes/Papers/Model car.pdf",
+    "Masters Notes/Papers/Model car.pdf.crdownload",
+    "Masters Notes/Papers/F3-DP-2017-Kerner-Jiri-software_testing_for_embedded_applications_in_autonomous_vehicles.pdf",
+    "Masters Notes/Papers/F3-DP-2017-Kerner-Jiri-software_testing_for_embedded_applications_in_autonomous_vehicles.pdf.crdownload",
     "Masters Notes/Tasks.md",
-    "Masters Notes/To do/24-04-16.md",
     "Masters Notes/To do/24-04-10.md",
     "Masters Notes/To do/24-04-11.md",
     "Masters Notes/To do/24-04-15.md",
