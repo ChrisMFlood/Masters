@@ -1,7 +1,7 @@
 \chapter{Abstract}
 % This paper proposes benchmark tests to evaluate the performance of each compentent in the racing pipeline. The benchmark algorithms were chosen to to test new algorthims aginst easily 
 
-The goal of this project is to implement and test a full-stack racing strategy for single vehicle and head-to-head racing, with a focus on integrating and testing pipeline components. The goal is to create benchmark tests to evaluate each pipeline component.
+The goal of this project is to implement and test a full-stack racing strategy for single vehicle and head-to-head racing, with a focus on integrating and testing pipeline components. The goal is to create benchmark tests to evaluate key characteristics each pipeline component. The tests will also evaluate the response to noisy data input to evaluate the robustness of each component. Lap time on different maps will be used as an over all measure of performance for each component.
 
 The chapters are as follows:
 \section{Chapter 1}
@@ -11,40 +11,44 @@ Literature review
 \section{Chapter 3}
 Testing for perception
 
-% Map quaility??
-localisation:
-maximum number of particles
-computational power
-sample frequency
-response to odometry quaility
+The following characteristics are to be evaluated:
+\begin{itemize}
+    \item accuracy - mean error and max error (laptime/percentage completion can also be used as a proxy measurement)
+    \item maximum number of particles
+    \item computational power
+    \item sample frequency from sensors
+\end{itemize}
 
-accuracy- mean error and max error
-laptime/percentage completion
-robustness-include noise in input data
 \section{Chapter 4}
-testing for planning
-include inaccuarate localistation data
+Testing for planning
 
-local:
+The overtaking ability of the car needs to be evaluated to test the local planner.
 
+The safety of the race line (distance from walls) and lap time must be balanced for the global planner
 
-
-laptime
 \section{Chapter 5}
-testing for control
+Testing for control
 
-laptime
+The following characteristics are to be evaluated:
+\begin{itemize}
+    \item Tracking accuracy - percentage of planed line followed, mean error and max error
+    \item max/min control frequency
+    \item computational power
+    \item lookahead distance
+\end{itemize}
 \section{Chapter 6}
-general software tests
+Testing for head to head racing
 
-frequency of readings
+Opponent detection and tracking will be tested (more research must be done to find out how)
+
 \section{Chapter 7}
+Real world testing
+
+A test track will have to be created with cameras to accurately track the cars pose and other characteristics.
 
 \section{Chapter 8}
-
-\section{Chapter 9}
 Discussion of results
-\section{Chapter 10}
+\section{Chapter 9}
 Conclusion
 
 
