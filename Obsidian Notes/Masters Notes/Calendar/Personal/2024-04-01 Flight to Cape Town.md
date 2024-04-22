@@ -6,4 +6,4 @@ endTime: 19:30
 date: 2024-04-01
 completed: null
 ---
-- [ ] HLA -> CPT  [created:: 2024-03-01]  [scheduled:: 2024-04-01]
+- [x] HLA -> CPT  [created:: 2024-03-01]  [scheduled:: 2024-04-01]  [completion:: 2024-04-22]

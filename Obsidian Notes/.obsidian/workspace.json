@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/To do/24-04-18.md",
+                "file": "Masters Notes/Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/To do/24-04-18.md",
+                "file": "Masters Notes/Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/To do/24-04-18.md",
+                "file": "Masters Notes/Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/To do/24-04-18.md"
+                "file": "Masters Notes/Tasks.md"
               }
             }
           },
@@ -201,8 +201,9 @@
   },
   "active": "887c9f43b046dc28",
   "lastOpenFiles": [
-    "Masters Notes/To do/24-04-16.md",
+    "Masters Notes/To do/24-04-22.md",
     "Masters Notes/To do/24-04-18.md",
+    "Masters Notes/To do/24-04-16.md",
     "Masters Notes/Meeting Minutes/2024-W16.md",
     "Masters Notes/Calendar/Personal/2024-04-19 Flight to joburg.md",
     "Masters Notes/Papers/eth zurich full stack.pdf",

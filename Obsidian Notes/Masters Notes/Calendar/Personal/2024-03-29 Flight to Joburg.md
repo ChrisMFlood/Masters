@@ -7,4 +7,4 @@ date: 2024-03-29
 completed: null
 ---
 - [x] check in  [created:: 2024-03-28]  [scheduled:: 2024-03-28]  [completion:: 2024-03-28]
-- [ ] CPT -> HLA  [created:: 2024-03-01]  [scheduled:: 2024-03-29]
+- [x] CPT -> HLA  [created:: 2024-03-01]  [scheduled:: 2024-03-29]  [completion:: 2024-04-22]

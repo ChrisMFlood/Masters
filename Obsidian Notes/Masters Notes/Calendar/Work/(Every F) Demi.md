@@ -9,7 +9,10 @@ startRecur: 2024-02-23
 endRecur: 2024-06-01
 ---
 #todo
-- [ ] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-03-28]  [start:: 2024-04-05]  [scheduled:: 2024-04-05]
+- [ ] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-04-22]  [start:: 2024-04-26]  [scheduled:: 2024-04-26]
+- [x] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-04-22]  [start:: 2024-04-19]  [scheduled:: 2024-04-19]  [completion:: 2024-04-22]
+- [x] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-04-22]  [start:: 2024-04-12]  [scheduled:: 2024-04-12]  [completion:: 2024-04-22]
+- [x] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-03-28]  [start:: 2024-04-05]  [scheduled:: 2024-04-05]  [completion:: 2024-04-22]
 - [x] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-03-22]  [start:: 2024-03-29]  [scheduled:: 2024-03-29]  [completion:: 2024-03-28]
 - [x] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-03-18]  [start:: 2024-03-22]  [scheduled:: 2024-03-22]  [completion:: 2024-03-22]
 - [x] Demi [statTime:: 13:45] [endTime:: 17:00]  [repeat:: every week on Friday]  [created:: 2024-03-08]  [start:: 2024-03-15]  [scheduled:: 2024-03-15]  [completion:: 2024-03-18]
