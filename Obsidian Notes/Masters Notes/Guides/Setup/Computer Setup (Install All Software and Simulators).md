@@ -43,7 +43,7 @@ echo "##########################################################################
 echo "VS code"
 sudo apt update
 sudo apt upgrade
-sudo snap install code
+sudo snap install code--classic
 code --install-extension ms-python.python
 code --install-extension esbenp.prettier-vscode
 code --install-extension mhutchie.git-graph
