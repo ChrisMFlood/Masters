@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters Notes/Tasks.md",
+                "file": "Masters Notes/Guides/Code/ROS2 commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters Notes/Tasks.md",
+                "file": "Masters Notes/Guides/Code/ROS2 commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters Notes/Tasks.md",
+                "file": "Masters Notes/Guides/Code/ROS2 commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters Notes/Tasks.md"
+                "file": "Masters Notes/Guides/Code/ROS2 commands.md"
               }
             }
           },
@@ -199,8 +199,57 @@
       "periodic-notes:Open this week": false
     }
   },
+  "floating": {
+    "id": "408691a27d64df38",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ca95bdc26a0f1d5e",
+        "type": "window",
+        "children": [
+          {
+            "id": "bbff6cfc9c0cf0f2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a8432d8d6a36f2ad",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 495,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "887c9f43b046dc28",
   "lastOpenFiles": [
+    "Masters Notes/To do/24-04-30.md",
+    "Masters Notes/Guides/Setup/Simulators.md",
+    "Masters Notes/Guides/Setup/Software.md",
+    "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
+    "Masters Notes/Guides/Code/ROS2 commands.md",
+    "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym (No GPU).md",
+    "Masters Notes/Guides/Simulators/Racing-pipline.md",
+    "Masters Notes/To do/24-04-29.md",
+    "Masters Notes/Tasks.md",
+    "Masters Notes/To do/24-04-23.md",
+    "Masters Notes/Questions.md",
+    "Masters Notes/Misc.md",
     "Masters Notes/To do/24-04-22.md",
     "Masters Notes/To do/24-04-18.md",
     "Masters Notes/To do/24-04-16.md",
@@ -216,16 +265,10 @@
     "Masters Notes/Papers/Model car.pdf.crdownload",
     "Masters Notes/Papers/F3-DP-2017-Kerner-Jiri-software_testing_for_embedded_applications_in_autonomous_vehicles.pdf",
     "Masters Notes/Papers/F3-DP-2017-Kerner-Jiri-software_testing_for_embedded_applications_in_autonomous_vehicles.pdf.crdownload",
-    "Masters Notes/Tasks.md",
     "Masters Notes/To do/24-04-10.md",
     "Masters Notes/To do/24-04-11.md",
     "Masters Notes/To do/24-04-15.md",
-    "Masters Notes/Guides/Code/ROS2 commands.md",
     "Masters Notes/Meeting Minutes/2024-W15.md",
-    "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym (No GPU).md",
-    "Masters Notes/Guides/Setup/Software.md",
-    "Masters Notes/Guides/Setup/Simulators.md",
-    "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
     "Masters Notes/To do/24-04-09.md",
     "Masters Notes/Pocket Cube/IMU.md",
     "Masters Notes/Pocket Cube/SD vs EEPROM.md"

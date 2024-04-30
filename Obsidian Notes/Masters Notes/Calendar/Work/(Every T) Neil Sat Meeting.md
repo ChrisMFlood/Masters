@@ -7,7 +7,8 @@ type: recurring
 daysOfWeek: [T]
 startRecur: 2024-03-12
 ---
-- [ ] Neil Sat Meeting  [repeat:: every week on Tuesday]  [created:: 2024-04-22]  [scheduled:: 2024-04-23]
+- [ ] Neil Sat Meeting  [repeat:: every week on Tuesday]  [created:: 2024-04-23]  [scheduled:: 2024-04-30]
+- [x] Neil Sat Meeting  [repeat:: every week on Tuesday]  [created:: 2024-04-22]  [scheduled:: 2024-04-23]  [completion:: 2024-04-23]
 - [x] Neil Sat Meeting  [repeat:: every week on Tuesday]  [created:: 2024-04-22]  [scheduled:: 2024-04-16]  [completion:: 2024-04-22]
 - [x] Neil Sat Meeting  [repeat:: every week on Tuesday]  [created:: 2024-04-22]  [scheduled:: 2024-04-09]  [completion:: 2024-04-22]
 - [x] Neil Sat Meeting  [repeat:: every week on Tuesday]  [created:: 2024-03-28]  [scheduled:: 2024-04-02]  [completion:: 2024-04-22]
