@@ -199,50 +199,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "floating": {
-    "id": "408691a27d64df38",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ca95bdc26a0f1d5e",
-        "type": "window",
-        "children": [
-          {
-            "id": "bbff6cfc9c0cf0f2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a8432d8d6a36f2ad",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 495,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "887c9f43b046dc28",
   "lastOpenFiles": [
+    "Masters Notes/To do/24-05-06.md",
+    "Masters Notes/Guides/Code/ROS2 commands.md",
+    "Masters Notes/To do/24-05-01.md",
     "Masters Notes/To do/24-04-30.md",
     "Masters Notes/Guides/Setup/Simulators.md",
     "Masters Notes/Guides/Setup/Software.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/ROS Gym (Graphics Card).md",
-    "Masters Notes/Guides/Code/ROS2 commands.md",
     "Masters Notes/Guides/Simulators/ROS2 Gym/Ros Gym (No GPU).md",
     "Masters Notes/Guides/Simulators/Racing-pipline.md",
     "Masters Notes/To do/24-04-29.md",
